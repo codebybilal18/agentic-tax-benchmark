@@ -17,3 +17,5 @@ in Agentic vs. Non-Agentic LLM architectures.
 - `benchmark.py` — Benchmark script
 - `nab_results.csv` / `arl_results.csv` — Raw data
 - `benchmark_results.png` — Results chart
+
+[![DOI](https://zenodo.org/badge/1169197089.svg)](https://doi.org/10.5281/zenodo.18813824)
