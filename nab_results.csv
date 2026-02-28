@@ -1,0 +1,2036 @@
+latency,input_tokens,output_tokens,total_tokens,answer,tool_calls,llm_turns,task,trial
+0.8801053210045211,80,35,115,"Based on the database record for user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,1
+1.4845516709901858,80,35,115,"Based on the database record for user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,2
+1.0158439830120187,80,35,115,"Based on the database record for user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,3
+0.8937572770228144,80,35,115,"Based on the database record for user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,4
+1.1545454719744157,80,35,115,"Based on the database record for user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,5
+0.9039456000027712,80,35,115,"Based on the database record for user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,6
+0.9399426720046904,80,35,115,"Based on the database record for user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,7
+0.9156103729910683,80,32,112,"Based on the database record provided:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,8
+1.0302939940011129,80,35,115,"Based on the database record for user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,9
+1.390088898013346,80,35,115,"Based on the database record for user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2519.85",0,1,1,10
+1.369269565999275,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,1
+1.1254014690057375,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,2
+1.234955486987019,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,3
+1.2224112589901779,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,4
+1.0681391899997834,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,5
+0.8853218129952438,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,6
+0.9199702279875055,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,7
+1.0260568970115855,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,8
+1.1510888939956203,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,9
+1.8678913369949441,80,35,115,"Based on the database record for user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7253.63",0,1,2,10
+1.1056386840064079,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,1
+0.9940778519958258,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,2
+1.7667063270055223,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,3
+0.8676272020093165,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,4
+0.9548720800084993,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,5
+0.9507822130108252,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,6
+1.166674170002807,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,7
+0.8897686029959004,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,8
+1.054230698995525,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,9
+0.9490997199900448,80,35,115,"Based on the database record for user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8710.33",0,1,3,10
+0.9163675529998727,80,36,116,"Based on the database record for user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1,577.75",0,1,4,1
+1.0239589650009293,80,35,115,"Based on the database record for user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1577.75",0,1,4,2
+1.6039165810216218,80,32,112,"Based on the database record provided:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1577.75",0,1,4,3
+0.9018924389965832,80,35,115,"Based on the database record for user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1577.75",0,1,4,4
+1.3851881389855407,80,35,115,"Based on the database record for user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1577.75",0,1,4,5
+0.9092438250081614,80,33,113,"Based on the database record for user_004:
+
+**Email:** user4@example.com
+**Account Balance:** $1577.75",0,1,4,6
+0.8732806239859201,80,35,115,"Based on the database record for user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1577.75",0,1,4,7
+0.9348980629874859,80,35,115,"Based on the database record for user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1577.75",0,1,4,8
+1.0788859690073878,80,35,115,"Based on the database record for user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1577.75",0,1,4,9
+0.8843052399752196,80,35,115,"Based on the database record for user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1577.75",0,1,4,10
+1.0582348919997457,80,35,115,"Based on the database record for user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5143.16",0,1,5,1
+1.0125063659797888,80,35,115,"Based on the database record for user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5143.16",0,1,5,2
+0.8957164720050059,80,35,115,"Based on the database record for user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5143.16",0,1,5,3
+0.9888350309920497,80,35,115,"Based on the database record for user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5143.16",0,1,5,4
+0.9165614889934659,80,35,115,"Based on the database record for user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5143.16",0,1,5,5
+0.9465156169899274,80,35,115,"Based on the database record for user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5143.16",0,1,5,6
+1.1000878179911524,80,35,115,"Based on the database record for user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5143.16",0,1,5,7
+0.9991249839949887,80,35,115,"Based on the database record for user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5143.16",0,1,5,8
+1.208942692988785,80,30,110,"Based on the database record provided:
+
+**Email:** user5@example.com
+
+**Account Balance:** $5143.16",0,1,5,9
+0.8298012290033512,80,35,115,"Based on the database record for user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5143.16",0,1,5,10
+1.3462386750034057,80,33,113,"Based on the database record for user_006:
+
+**Email:** user6@example.com
+
+**Account Balance:** $7246.22",0,1,6,1
+0.8648636060243007,80,35,115,"Based on the database record for user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7246.22",0,1,6,2
+0.8779832319996785,80,35,115,"Based on the database record for user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7246.22",0,1,6,3
+0.8771746690035798,80,35,115,"Based on the database record for user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7246.22",0,1,6,4
+1.1051347659958992,80,35,115,"Based on the database record for user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7246.22",0,1,6,5
+0.8876431300013792,80,35,115,"Based on the database record for user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7246.22",0,1,6,6
+1.992416489025345,80,35,115,"Based on the database record for user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7246.22",0,1,6,7
+0.9626438919804059,80,35,115,"Based on the database record for user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7246.22",0,1,6,8
+1.0305550119956024,80,30,110,"Based on the database record provided:
+
+**Email:** user6@example.com
+
+**Account Balance:** $7246.22",0,1,6,9
+0.9213540419877972,80,35,115,"Based on the database record for user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7246.22",0,1,6,10
+1.0230467159999534,80,33,113,"Based on the database record for user_007:
+
+**Email:** user7@example.com
+
+**Account Balance:** $6712.13",0,1,7,1
+1.42842397899949,80,33,113,"Based on the database record for user_007:
+
+**Email:** user7@example.com
+
+**Account Balance:** $6712.13",0,1,7,2
+1.5421642159926705,80,35,115,"Based on the database record for user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6712.13",0,1,7,3
+1.0932421959878411,80,35,115,"Based on the database record for user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6712.13",0,1,7,4
+1.0651158900000155,80,35,115,"Based on the database record for user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6712.13",0,1,7,5
+1.0255027280072682,80,35,115,"Based on the database record for user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6712.13",0,1,7,6
+1.2218892900273204,80,35,115,"Based on the database record for user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6712.13",0,1,7,7
+1.5336352350132074,80,35,115,"Based on the database record for user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6712.13",0,1,7,8
+1.2282317600038368,80,35,115,"Based on the database record for user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6712.13",0,1,7,9
+0.9142292620090302,80,35,115,"Based on the database record for user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6712.13",0,1,7,10
+0.8942557810223661,80,33,113,"Based on the database record for user_008:
+
+**Email:** user8@example.com
+
+**Account Balance:** $7856.94",0,1,8,1
+1.0949133280082606,80,35,115,"Based on the database record for user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7856.94",0,1,8,2
+0.9759978129877709,80,35,115,"Based on the database record for user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7856.94",0,1,8,3
+1.0072343030187767,80,33,113,"Based on the database record for user_008:
+
+**Email:** user8@example.com
+
+**Account Balance:** $7856.94",0,1,8,4
+0.9072064239881001,80,35,115,"Based on the database record for user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7856.94",0,1,8,5
+0.8768680169887375,80,35,115,"Based on the database record for user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7856.94",0,1,8,6
+1.111102470982587,80,35,115,"Based on the database record for user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7856.94",0,1,8,7
+0.924730536993593,80,35,115,"Based on the database record for user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7856.94",0,1,8,8
+0.9134521380183287,80,35,115,"Based on the database record for user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7856.94",0,1,8,9
+6.143417598999804,80,35,115,"Based on the database record for user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7856.94",0,1,8,10
+0.8801309449772816,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,1
+1.0714296980004292,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,2
+2.963712975004455,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,3
+0.9624169270100538,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,4
+0.8194075019855518,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,5
+1.2958287149958778,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,6
+0.9223832059942652,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,7
+0.9253096699831076,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,8
+1.6340321229945403,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,9
+2.4533813940070104,80,35,115,"Based on the database record for user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2886.2",0,1,9,10
+0.8592302020115312,80,35,115,"Based on the database record for user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,1
+0.9542588500189595,80,35,115,"Based on the database record for user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,2
+0.9605329540208913,80,35,115,"Based on the database record for user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,3
+1.2249689160089474,80,35,115,"Based on the database record for user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,4
+0.9210132560110651,80,35,115,"Based on the database record for user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,5
+1.0163567610143218,80,35,115,"Based on the database record for user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,6
+0.8560587379906792,80,32,112,"Based on the database record provided:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,7
+1.4191327500157058,80,35,115,"Based on the database record for user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,8
+1.213358533976134,80,35,115,"Based on the database record for user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,9
+1.3328123829851393,80,35,115,"Based on the database record for user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5542.53",0,1,10,10
+0.9276618379808497,80,35,115,"Based on the database record for user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5970.4",0,1,11,1
+1.0423422020103317,80,35,115,"Based on the database record for user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5970.4",0,1,11,2
+0.9395590400090441,80,35,115,"Based on the database record for user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5970.4",0,1,11,3
+1.8333010800124612,80,35,115,"Based on the database record for user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5970.4",0,1,11,4
+0.8797061819932424,80,35,115,"Based on the database record for user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5970.4",0,1,11,5
+0.8537368999968749,80,33,113,"Based on the database record for user_011:
+
+**Email:** user11@example.com
+
+**Account Balance:** $5970.4",0,1,11,6
+1.2069416060112417,80,35,115,"Based on the database record for user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5970.4",0,1,11,7
+1.2236562990001403,80,35,115,"Based on the database record for user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5970.4",0,1,11,8
+0.9101536739908624,80,35,115,"Based on the database record for user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5970.4",0,1,11,9
+1.0294793319771998,80,35,115,"Based on the database record for user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5970.4",0,1,11,10
+0.8850204430054873,80,35,115,"Based on the database record for user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8024.91",0,1,12,1
+0.9343762439966667,80,35,115,"Based on the database record for user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8024.91",0,1,12,2
+0.9187455079809297,80,35,115,"Based on the database record for user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8024.91",0,1,12,3
+1.89605659400695,80,35,115,"Based on the database record for user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8024.91",0,1,12,4
+0.8648480990086682,80,33,113,"Based on the database record for user_012:
+
+**Email:** user12@example.com
+
+**Account Balance:** $8024.91",0,1,12,5
+0.8827575519972015,80,35,115,"Based on the database record for user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8024.91",0,1,12,6
+1.2984615130117163,80,35,115,"Based on the database record for user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8024.91",0,1,12,7
+1.010625255992636,80,35,115,"Based on the database record for user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8024.91",0,1,12,8
+1.0656734050135128,80,35,115,"Based on the database record for user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8024.91",0,1,12,9
+0.8824904899811372,80,35,115,"Based on the database record for user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8024.91",0,1,12,10
+1.551816585008055,80,35,115,"Based on the database record for user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8225.39",0,1,13,1
+0.8345664619992021,80,35,115,"Based on the database record for user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8225.39",0,1,13,2
+0.8812831389950588,80,35,115,"Based on the database record for user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8225.39",0,1,13,3
+0.8521585929847788,80,35,115,"Based on the database record for user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8225.39",0,1,13,4
+1.222792672982905,80,35,115,"Based on the database record for user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8225.39",0,1,13,5
+1.3312938500021119,80,35,115,"Based on the database record for user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8225.39",0,1,13,6
+1.2289299679978285,80,35,115,"Based on the database record for user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8225.39",0,1,13,7
+1.3010850750142708,80,35,115,"Based on the database record for user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8225.39",0,1,13,8
+0.8595070320006926,80,35,115,"Based on the database record for user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8225.39",0,1,13,9
+1.1115522820036858,80,33,113,"Based on the database record for user_013:
+
+**Email:** user13@example.com
+
+**Account Balance:** $8225.39",0,1,13,10
+0.9532018809986766,80,35,115,"Based on the database record for user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,1
+0.9279229130188469,80,35,115,"Based on the database record for user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,2
+0.9451983949984424,80,32,112,"Based on the database record provided:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,3
+1.2884588170272764,80,35,115,"Based on the database record for user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,4
+1.2121330309892073,80,35,115,"Based on the database record for user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,5
+1.640175583976088,80,35,115,"Based on the database record for user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,6
+0.9093614989833441,80,35,115,"Based on the database record for user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,7
+1.6504669189744163,80,35,115,"Based on the database record for user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,8
+0.9700010889791884,80,35,115,"Based on the database record for user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,9
+0.9750133760098834,80,35,115,"Based on the database record for user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5395.22",0,1,14,10
+1.2283544530218933,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,1
+1.22900930600008,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,2
+0.9135420249949675,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,3
+1.5564161590009462,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,4
+0.8195788559969515,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,5
+1.3176509909972083,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,6
+0.9699433039932046,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,7
+1.1812519959930796,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,8
+0.9153973420034163,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,9
+1.0322764219890814,80,35,115,"Based on the database record for user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4732.55",0,1,15,10
+1.6399083959986456,80,35,115,"Based on the database record for user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6236.1",0,1,16,1
+1.0228793210117146,80,35,115,"Based on the database record for user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6236.1",0,1,16,2
+1.219741274981061,80,35,115,"Based on the database record for user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6236.1",0,1,16,3
+0.9300099769898225,80,35,115,"Based on the database record for user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6236.1",0,1,16,4
+1.7827463379944675,80,33,113,"Based on the database record for user_016:
+
+**Email:** user16@example.com
+
+**Account Balance:** $6236.1",0,1,16,5
+0.860593665012857,80,35,115,"Based on the database record for user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6236.1",0,1,16,6
+0.8829865869774949,80,35,115,"Based on the database record for user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6236.1",0,1,16,7
+1.1510942530003376,80,35,115,"Based on the database record for user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6236.1",0,1,16,8
+0.8286306119989604,80,35,115,"Based on the database record for user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6236.1",0,1,16,9
+1.243847394012846,80,35,115,"Based on the database record for user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6236.1",0,1,16,10
+1.031081481021829,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,1
+1.0108498590125237,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,2
+1.0695991449756548,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,3
+0.9383021420217119,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,4
+0.763591048977105,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,5
+0.8934270860045217,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,6
+0.926388758001849,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,7
+1.1375826559960842,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,8
+0.8926978099916596,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,9
+0.9662269540131092,80,35,115,"Based on the database record for user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3232.44",0,1,17,10
+1.2344237329962198,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,1
+1.2255251639871858,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,2
+1.3358158550108783,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,3
+1.187030325003434,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,4
+1.03181584898266,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,5
+1.047147503006272,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,6
+1.0007620640099049,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,7
+1.1598274979915004,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,8
+0.9561231470142957,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,9
+0.8768501199956518,80,35,115,"Based on the database record for user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4699.23",0,1,18,10
+1.0390659669938032,80,35,115,"Based on the database record for user_019:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9064.87",0,1,19,1
+0.9995701779844239,80,35,115,"Based on the database record for user_019:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9064.87",0,1,19,2
+0.9245016069908161,80,33,113,"Based on the database record for user_019:
+
+**Email:** user19@example.com
+
+**Account Balance:** $9064.87",0,1,19,3
+0.9913575139944442,80,35,115,"Based on the database record for user_019:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9064.87",0,1,19,4
+1.0347811859974172,80,35,115,"Based on the database record for user_019:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9064.87",0,1,19,5
+1.0755252889939584,80,35,115,"Based on the database record for user_019:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9064.87",0,1,19,6
+1.5180206049990375,80,33,113,"Based on the database record for user_019:
+
+**Email:** user19@example.com
+
+**Account Balance:** $9064.87",0,1,19,7
+0.8460264889872633,80,33,113,"Based on the database record for user_019:
+
+**Email:** user19@example.com
+**Account Balance:** $9064.87",0,1,19,8
+1.1014338119712193,80,35,115,"Based on the database record for user_019:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9064.87",0,1,19,9
+1.3636380980024114,80,35,115,"Based on the database record for user_019:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9064.87",0,1,19,10
+0.7739653110038489,80,35,115,"Based on the database record for user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7381.27",0,1,20,1
+1.2332244600111153,80,35,115,"Based on the database record for user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7381.27",0,1,20,2
+1.0422726499964483,80,33,113,"Based on the database record for user_020:
+
+**Email:** user20@example.com
+
+**Account Balance:** $7381.27",0,1,20,3
+1.0002039350220002,80,35,115,"Based on the database record for user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7381.27",0,1,20,4
+1.2331446149910334,80,35,115,"Based on the database record for user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7381.27",0,1,20,5
+1.0308447479910683,80,35,115,"Based on the database record for user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7381.27",0,1,20,6
+0.9239182290039025,80,35,115,"Based on the database record for user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7381.27",0,1,20,7
+0.8178565669804811,80,35,115,"Based on the database record for user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7381.27",0,1,20,8
+0.9836788710090332,80,35,115,"Based on the database record for user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7381.27",0,1,20,9
+1.268562829005532,80,35,115,"Based on the database record for user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7381.27",0,1,20,10
+0.9655566359870136,80,35,115,"Based on the database record for user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6248.65",0,1,21,1
+1.0395901160081849,80,35,115,"Based on the database record for user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6248.65",0,1,21,2
+0.9605724549910519,80,35,115,"Based on the database record for user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6248.65",0,1,21,3
+0.944731908995891,80,35,115,"Based on the database record for user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6248.65",0,1,21,4
+0.8462898150028195,80,35,115,"Based on the database record for user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6248.65",0,1,21,5
+0.9488445199967828,80,35,115,"Based on the database record for user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6248.65",0,1,21,6
+0.9921567249984946,80,35,115,"Based on the database record for user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6248.65",0,1,21,7
+0.8283250049862545,80,35,115,"Based on the database record for user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6248.65",0,1,21,8
+1.0457777609990444,80,33,113,"Based on the database record for user_021:
+
+**Email:** user21@example.com
+
+**Account Balance:** $6248.65",0,1,21,9
+0.9533448099973612,80,35,115,"Based on the database record for user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6248.65",0,1,21,10
+1.3292913939803839,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,1
+0.8991351040021982,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,2
+1.934402223007055,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,3
+1.0168125130003318,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,4
+0.9562248619913589,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,5
+1.0790957629797049,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,6
+0.9754192050022539,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,7
+0.920494090009015,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,8
+0.9209945620095823,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,9
+1.2301292619958986,80,35,115,"Based on the database record for user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1193.48",0,1,22,10
+0.9197646910033654,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,1
+0.9117115529952571,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,2
+0.9070192009967286,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,3
+1.2471795869932976,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,4
+0.9599112670111936,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,5
+1.5058475800033193,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,6
+0.9054660229885485,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,7
+0.9311989769921638,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,8
+1.029435694013955,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,9
+1.2326413610135205,80,35,115,"Based on the database record for user_023:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2347.83",0,1,23,10
+1.3685650319966953,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,1
+1.0274633390072268,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,2
+1.0161613060045056,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,3
+0.9964517859916668,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,4
+0.8241276759945322,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,5
+1.2376300339819863,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,6
+0.836710489995312,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,7
+0.9798069600074086,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,8
+1.0294227180129383,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,9
+1.0182743449986447,80,35,115,"Based on the database record for user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8892.71",0,1,24,10
+0.8157004620006774,80,35,115,"Based on the database record for user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8406.19",0,1,25,1
+0.862905829999363,80,35,115,"Based on the database record for user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8406.19",0,1,25,2
+0.8509506589907687,80,35,115,"Based on the database record for user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8406.19",0,1,25,3
+1.340351725986693,80,35,115,"Based on the database record for user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8406.19",0,1,25,4
+1.1265452499792445,80,35,115,"Based on the database record for user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8406.19",0,1,25,5
+1.0497331020014826,80,35,115,"Based on the database record for user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8406.19",0,1,25,6
+1.2219386370270513,80,35,115,"Based on the database record for user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8406.19",0,1,25,7
+1.6503940660040826,80,35,115,"Based on the database record for user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8406.19",0,1,25,8
+1.1700634099834133,80,35,115,"Based on the database record for user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8406.19",0,1,25,9
+1.033519871009048,80,33,113,"Based on the database record for user_025:
+
+**Email:** user25@example.com
+
+**Account Balance:** $8406.19",0,1,25,10
+1.028496743994765,80,35,115,"Based on the database record for user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3448.45",0,1,26,1
+1.0519121079996694,80,35,115,"Based on the database record for user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3448.45",0,1,26,2
+0.9764779529941734,80,35,115,"Based on the database record for user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3448.45",0,1,26,3
+0.8918605750077404,80,35,115,"Based on the database record for user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3448.45",0,1,26,4
+0.9887101229978725,80,35,115,"Based on the database record for user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3448.45",0,1,26,5
+0.9965961429988965,80,33,113,"Based on the database record for user_026:
+
+**Email:** user26@example.com
+
+**Account Balance:** $3448.45",0,1,26,6
+1.482649390003644,80,35,115,"Based on the database record for user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3448.45",0,1,26,7
+0.9159373280126601,80,35,115,"Based on the database record for user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3448.45",0,1,26,8
+1.02569839800708,80,35,115,"Based on the database record for user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3448.45",0,1,26,9
+0.9190712019917555,80,35,115,"Based on the database record for user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3448.45",0,1,26,10
+0.8438496390008368,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,1
+1.0486998850246891,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,2
+1.1795870200148784,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,3
+1.0249423870118335,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,4
+1.0247050270263571,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,5
+0.8593241659982596,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,6
+0.9330876229796559,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,7
+1.072578633989906,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,8
+1.2800208060070872,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,9
+1.0762474880029913,80,35,115,"Based on the database record for user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5071.9",0,1,27,10
+1.0002739990013652,80,35,115,"Based on the database record for user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8682.87",0,1,28,1
+1.1608298619976267,80,35,115,"Based on the database record for user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8682.87",0,1,28,2
+1.1861365229997318,80,35,115,"Based on the database record for user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8682.87",0,1,28,3
+1.0698159239836968,80,35,115,"Based on the database record for user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8682.87",0,1,28,4
+0.8639824720157776,80,35,115,"Based on the database record for user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8682.87",0,1,28,5
+0.8524421309994068,80,35,115,"Based on the database record for user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8682.87",0,1,28,6
+0.8637165070103947,80,30,110,"Based on the database record provided:
+
+**Email:** user28@example.com
+
+**Account Balance:** $8682.87",0,1,28,7
+0.8477049650100525,80,35,115,"Based on the database record for user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8682.87",0,1,28,8
+0.9010098789876793,80,35,115,"Based on the database record for user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8682.87",0,1,28,9
+0.8953836470027454,80,35,115,"Based on the database record for user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8682.87",0,1,28,10
+1.009110235987464,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,1
+0.9002744499885011,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,2
+0.9448454870143905,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,3
+1.0695778909721412,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,4
+1.8639451309863944,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,5
+1.0787228390108794,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,6
+0.8643335359811317,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,7
+1.0109503070125356,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,8
+1.0046730019967072,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,9
+1.0108233470236883,80,35,115,"Based on the database record for user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1806.54",0,1,29,10
+1.1487996650103014,80,33,113,"Based on the database record for user_030:
+
+**Email:** user30@example.com
+
+**Account Balance:** $7757.38",0,1,30,1
+1.6015015610028058,80,35,115,"Based on the database record for user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7757.38",0,1,30,2
+1.1168882380006835,80,35,115,"Based on the database record for user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7757.38",0,1,30,3
+1.3204331879969686,80,35,115,"Based on the database record for user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7757.38",0,1,30,4
+1.822604782995768,80,35,115,"Based on the database record for user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7757.38",0,1,30,5
+2.36407123299432,80,35,115,"Based on the database record for user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7757.38",0,1,30,6
+1.6869439060101286,80,35,115,"Based on the database record for user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7757.38",0,1,30,7
+1.5416769289877266,80,35,115,"Based on the database record for user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7757.38",0,1,30,8
+1.9458107349928468,80,35,115,"Based on the database record for user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7757.38",0,1,30,9
+2.4319341969967354,80,35,115,"Based on the database record for user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7757.38",0,1,30,10
+3.170068153005559,80,35,115,"Based on the database record for user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3838.73",0,1,31,1
+4.07222402698244,80,35,115,"Based on the database record for user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3838.73",0,1,31,2
+3.5281188520020805,80,35,115,"Based on the database record for user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3838.73",0,1,31,3
+4.292370167997433,80,35,115,"Based on the database record for user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3838.73",0,1,31,4
+4.262468072003685,80,35,115,"Based on the database record for user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3838.73",0,1,31,5
+3.742773470003158,80,35,115,"Based on the database record for user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3838.73",0,1,31,6
+3.0678404020145535,80,35,115,"Based on the database record for user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3838.73",0,1,31,7
+3.7538883149973117,80,31,111,"Based on the database record:
+
+- **Email**: user31@example.com
+- **Account Balance**: $3838.73",0,1,31,8
+2.8446733799937647,80,35,115,"Based on the database record for user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3838.73",0,1,31,9
+3.2557032300101127,80,35,115,"Based on the database record for user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3838.73",0,1,31,10
+1.6143561039934866,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,1
+1.4349748120002914,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,2
+1.5108658090175595,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,3
+1.7566302779887337,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,4
+1.732816728996113,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,5
+1.699013234989252,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,6
+1.8736500059894752,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,7
+2.0242018150165677,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,8
+1.5761457170010544,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,9
+1.8859477539954241,80,35,115,"Based on the database record for user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4595.3",0,1,32,10
+1.5983262459922116,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,1
+1.837578911014134,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,2
+1.4270612920226995,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,3
+1.660172481002519,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,4
+1.874002549011493,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,5
+1.3340600859955885,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,6
+1.534130510990508,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,7
+1.3776302710175514,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,8
+1.4525970649847295,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,9
+1.3700765100074932,80,35,115,"Based on the database record for user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8085.92",0,1,33,10
+1.8436364340013824,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,1
+1.624698415020248,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,2
+1.4931787769892253,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,3
+1.6180255950021092,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,4
+2.413624495995464,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,5
+1.7723956030094996,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,6
+2.058527380984742,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,7
+3.0658874360087793,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,8
+1.6933174089936074,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,9
+2.119557908998104,80,35,115,"Based on the database record for user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9203.32",0,1,34,10
+2.3702462379878853,80,35,115,"Based on the database record for user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8644.75",0,1,35,1
+1.5421935199992731,80,35,115,"Based on the database record for user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8644.75",0,1,35,2
+1.402638369007036,80,35,115,"Based on the database record for user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8644.75",0,1,35,3
+1.696516882017022,80,35,115,"Based on the database record for user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8644.75",0,1,35,4
+1.5445795069972519,80,35,115,"Based on the database record for user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8644.75",0,1,35,5
+2.185645735997241,80,35,115,"Based on the database record for user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8644.75",0,1,35,6
+1.5606098779826425,80,35,115,"Based on the database record for user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8644.75",0,1,35,7
+1.127763735014014,80,33,113,"Based on the database record for user_035:
+
+**Email:** user35@example.com
+
+**Account Balance:** $8644.75",0,1,35,8
+1.6037796110031195,80,35,115,"Based on the database record for user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8644.75",0,1,35,9
+1.7657578839862254,80,35,115,"Based on the database record for user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8644.75",0,1,35,10
+3.274247944005765,80,35,115,"Based on the database record for user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4816.93",0,1,36,1
+2.30737380697974,80,33,113,"Based on the database record for user_036:
+
+**Email:** user36@example.com
+
+**Account Balance:** $4816.93",0,1,36,2
+1.6891175060009118,80,33,113,"Based on the database record for user_036:
+
+**Email:** user36@example.com
+
+**Account Balance:** $4816.93",0,1,36,3
+2.4814378249866422,80,35,115,"Based on the database record for user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4816.93",0,1,36,4
+2.1164358649984933,80,35,115,"Based on the database record for user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4816.93",0,1,36,5
+2.36582738198922,80,35,115,"Based on the database record for user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4816.93",0,1,36,6
+2.2053605040127877,80,35,115,"Based on the database record for user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4816.93",0,1,36,7
+2.2274257940007374,80,35,115,"Based on the database record for user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4816.93",0,1,36,8
+2.6408345509844366,80,35,115,"Based on the database record for user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4816.93",0,1,36,9
+2.294363831024384,80,35,115,"Based on the database record for user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4816.93",0,1,36,10
+2.1108777890040074,80,35,115,"Based on the database record for user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8750.27",0,1,37,1
+1.8413640790095087,80,35,115,"Based on the database record for user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8750.27",0,1,37,2
+1.8394744480028749,80,35,115,"Based on the database record for user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8750.27",0,1,37,3
+1.9414176729915198,80,33,113,"Based on the database record for user_037:
+
+**Email:** user37@example.com
+
+**Account Balance:** $8750.27",0,1,37,4
+1.7537463189801201,80,35,115,"Based on the database record for user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8750.27",0,1,37,5
+2.339101537974784,80,33,113,"Based on the database record for user_037:
+
+**Email:** user37@example.com
+
+**Account Balance:** $8750.27",0,1,37,6
+1.84404276200803,80,35,115,"Based on the database record for user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8750.27",0,1,37,7
+1.8831188209878746,80,35,115,"Based on the database record for user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8750.27",0,1,37,8
+2.2286291089840233,80,35,115,"Based on the database record for user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8750.27",0,1,37,9
+1.904919874999905,80,35,115,"Based on the database record for user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8750.27",0,1,37,10
+1.851928832998965,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,1
+1.8110319759871345,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,2
+1.7393808040069416,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,3
+2.336982523003826,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,4
+1.966846297000302,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,5
+2.1510532129905187,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,6
+1.757750369986752,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,7
+1.8292095359938685,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,8
+1.6852082480036188,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,9
+1.874581626005238,80,35,115,"Based on the database record for user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7393.26",0,1,38,10
+1.873062138009118,80,35,115,"Based on the database record for user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1979.63",0,1,39,1
+1.7886073740082793,80,35,115,"Based on the database record for user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1979.63",0,1,39,2
+2.6164850060013123,80,35,115,"Based on the database record for user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1979.63",0,1,39,3
+1.8695983460056596,80,35,115,"Based on the database record for user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1979.63",0,1,39,4
+1.7750709539977834,80,35,115,"Based on the database record for user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1979.63",0,1,39,5
+2.1656859839858953,80,35,115,"Based on the database record for user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1979.63",0,1,39,6
+1.7187948589853477,80,33,113,"Based on the database record for user_039:
+
+**Email:** user39@example.com
+
+**Account Balance:** $1979.63",0,1,39,7
+2.3457960069936235,80,35,115,"Based on the database record for user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1979.63",0,1,39,8
+1.9612934140022844,80,35,115,"Based on the database record for user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1979.63",0,1,39,9
+1.841303811990656,80,35,115,"Based on the database record for user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1979.63",0,1,39,10
+1.949963774997741,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,1
+2.1447750240040477,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,2
+2.4074683010112494,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,3
+0.9484008769795764,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,4
+0.9541896170121618,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,5
+0.8860619509941898,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,6
+0.8558040510106366,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,7
+0.8466665169980843,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,8
+1.269374973984668,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,9
+1.0260642069915775,80,35,115,"Based on the database record for user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7959.92",0,1,40,10
+1.099578132998431,80,35,115,"Based on the database record for user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4676.44",0,1,41,1
+0.9023942689818796,80,35,115,"Based on the database record for user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4676.44",0,1,41,2
+1.333574371994473,80,35,115,"Based on the database record for user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4676.44",0,1,41,3
+1.068860148981912,80,35,115,"Based on the database record for user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4676.44",0,1,41,4
+0.9263127900194377,80,35,115,"Based on the database record for user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4676.44",0,1,41,5
+1.0140893039933871,80,33,113,"Based on the database record for user_041:
+
+**Email:** user41@example.com
+
+**Account Balance:** $4676.44",0,1,41,6
+1.3339763719995972,80,35,115,"Based on the database record for user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4676.44",0,1,41,7
+0.9190637030114885,80,33,113,"Based on the database record for user_041:
+
+**Email:** user41@example.com
+
+**Account Balance:** $4676.44",0,1,41,8
+1.1256574160070159,80,35,115,"Based on the database record for user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4676.44",0,1,41,9
+1.128785151988268,80,35,115,"Based on the database record for user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4676.44",0,1,41,10
+1.8101085719827097,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,1
+0.8609198679914698,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,2
+0.9761578589968849,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,3
+0.9008797370188404,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,4
+1.3187088539998513,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,5
+0.9362204580102116,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,6
+0.8430781489878427,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,7
+0.9978795399947558,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,8
+0.9806565420003608,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,9
+0.8503770190000068,80,35,115,"Based on the database record for user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7072.4",0,1,42,10
+0.97358219299349,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,1
+1.002092906011967,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,2
+1.0577193430217449,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,3
+1.7097838839981705,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,4
+0.9641058100096416,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,5
+0.9506295380124357,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,6
+1.0951670320064295,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,7
+1.222274022991769,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,8
+0.999585933983326,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,9
+0.9960651920118835,80,35,115,"Based on the database record for user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3113.6",0,1,43,10
+0.8833573419833556,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,1
+1.0145705089962576,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,2
+1.2114956169971265,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,3
+1.3542873499973211,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,4
+1.0226168030058034,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,5
+0.9335203910013661,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,6
+1.2165833709877916,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,7
+0.9912385960051324,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,8
+0.8949800039990805,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,9
+0.8887074160156772,80,35,115,"Based on the database record for user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1572.06",0,1,44,10
+1.0068140639923513,80,35,115,"Based on the database record for user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7507.34",0,1,45,1
+1.6016965839953627,80,35,115,"Based on the database record for user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7507.34",0,1,45,2
+1.3745804089994635,80,35,115,"Based on the database record for user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7507.34",0,1,45,3
+2.755805932014482,80,35,115,"Based on the database record for user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7507.34",0,1,45,4
+0.9144095790106803,80,30,110,"Based on the database record provided:
+
+**Email:** user45@example.com
+
+**Account Balance:** $7507.34",0,1,45,5
+0.9627222130075097,80,35,115,"Based on the database record for user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7507.34",0,1,45,6
+1.0012240170035511,80,35,115,"Based on the database record for user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7507.34",0,1,45,7
+0.9990111869992688,80,35,115,"Based on the database record for user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7507.34",0,1,45,8
+1.0012218419869896,80,35,115,"Based on the database record for user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7507.34",0,1,45,9
+0.965658806002466,80,35,115,"Based on the database record for user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7507.34",0,1,45,10
+1.0177271320135333,80,35,115,"Based on the database record for user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9651.07",0,1,46,1
+1.2363545309926849,80,35,115,"Based on the database record for user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9651.07",0,1,46,2
+1.046575621003285,80,35,115,"Based on the database record for user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9651.07",0,1,46,3
+1.2071857189876027,80,35,115,"Based on the database record for user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9651.07",0,1,46,4
+0.9350049950007815,80,33,113,"Based on the database record for user_046:
+
+**Email:** user46@example.com
+
+**Account Balance:** $9651.07",0,1,46,5
+1.1265730489976704,80,35,115,"Based on the database record for user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9651.07",0,1,46,6
+1.4168756089929957,80,35,115,"Based on the database record for user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9651.07",0,1,46,7
+1.0737791529973038,80,35,115,"Based on the database record for user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9651.07",0,1,46,8
+1.0513428270060103,80,35,115,"Based on the database record for user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9651.07",0,1,46,9
+0.985460730997147,80,35,115,"Based on the database record for user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9651.07",0,1,46,10
+1.0878039349918254,80,29,109,"Based on the database record:
+
+**Email:** user47@example.com
+
+**Account Balance:** $7159.86",0,1,47,1
+0.8903798350074794,80,35,115,"Based on the database record for user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7159.86",0,1,47,2
+0.9495389630028512,80,35,115,"Based on the database record for user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7159.86",0,1,47,3
+0.9830749699904118,80,35,115,"Based on the database record for user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7159.86",0,1,47,4
+1.0172474179998972,80,35,115,"Based on the database record for user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7159.86",0,1,47,5
+0.976999613980297,80,35,115,"Based on the database record for user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7159.86",0,1,47,6
+1.0861428960051853,80,36,116,"Based on the database record for user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7,159.86",0,1,47,7
+0.9657746750162914,80,35,115,"Based on the database record for user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7159.86",0,1,47,8
+1.1416119759960566,80,35,115,"Based on the database record for user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7159.86",0,1,47,9
+1.3093734139984008,80,35,115,"Based on the database record for user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7159.86",0,1,47,10
+0.8406253760040272,80,35,115,"Based on the database record for user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8255.18",0,1,48,1
+1.279603748000227,80,33,113,"Based on the database record for user_048:
+
+**Email:** user48@example.com
+
+**Account Balance:** $8255.18",0,1,48,2
+1.0568068819993641,80,35,115,"Based on the database record for user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8255.18",0,1,48,3
+1.1186054200225044,80,33,113,"Based on the database record for user_048:
+
+**Email:** user48@example.com
+
+**Account Balance:** $8255.18",0,1,48,4
+0.8192357689840719,80,33,113,"Based on the database record for user_048:
+
+**Email:** user48@example.com
+
+**Account Balance:** $8255.18",0,1,48,5
+0.8484005150094163,80,35,115,"Based on the database record for user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8255.18",0,1,48,6
+0.9935523169988301,80,35,115,"Based on the database record for user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8255.18",0,1,48,7
+1.0284767269913573,80,35,115,"Based on the database record for user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8255.18",0,1,48,8
+1.230474612006219,80,35,115,"Based on the database record for user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8255.18",0,1,48,9
+1.3311911869968753,80,35,115,"Based on the database record for user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8255.18",0,1,48,10
+0.9249630850099493,80,35,115,"Based on the database record for user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4854.01",0,1,49,1
+0.9192398920131382,80,35,115,"Based on the database record for user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4854.01",0,1,49,2
+1.114634561992716,80,35,115,"Based on the database record for user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4854.01",0,1,49,3
+1.0440369970165193,80,35,115,"Based on the database record for user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4854.01",0,1,49,4
+0.913535684987437,80,35,115,"Based on the database record for user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4854.01",0,1,49,5
+1.2035177029902115,80,35,115,"Based on the database record for user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4854.01",0,1,49,6
+0.8586741110193543,80,35,115,"Based on the database record for user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4854.01",0,1,49,7
+2.1041337130009197,80,35,115,"Based on the database record for user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4854.01",0,1,49,8
+1.1556928039935883,80,35,115,"Based on the database record for user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4854.01",0,1,49,9
+1.23126134701306,80,33,113,"Based on the database record for user_049:
+
+**Email:** user49@example.com
+
+**Account Balance:** $4854.01",0,1,49,10
+0.8238177810271736,80,35,115,"Based on the database record for user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5845.21",0,1,50,1
+0.8478271859930828,80,35,115,"Based on the database record for user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5845.21",0,1,50,2
+0.9246007180190645,80,35,115,"Based on the database record for user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5845.21",0,1,50,3
+0.959494609007379,80,35,115,"Based on the database record for user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5845.21",0,1,50,4
+0.9428812319820281,80,35,115,"Based on the database record for user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5845.21",0,1,50,5
+0.9653961720177904,80,33,113,"Based on the database record for user_050:
+
+**Email:** user50@example.com
+
+**Account Balance:** $5845.21",0,1,50,6
+0.9853910020028707,80,35,115,"Based on the database record for user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5845.21",0,1,50,7
+1.2291615540161729,80,35,115,"Based on the database record for user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5845.21",0,1,50,8
+0.9441999890259467,80,35,115,"Based on the database record for user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5845.21",0,1,50,9
+1.3091916599951219,80,35,115,"Based on the database record for user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5845.21",0,1,50,10

@@ -1,0 +1,1981 @@
+latency,input_tokens,output_tokens,total_tokens,answer,tool_calls,llm_turns,task,trial
+2.601373772980878,1644,137,1781,"For user ID **user_001**:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2,519.85",2,2,1,1
+2.0373818580119405,1644,139,1783,"Here's the information for user ID user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2,519.85",2,2,1,2
+1.9927813209942542,1644,139,1783,"Here's the information for user ID user_001:
+
+- **Email**: user1@example.com
+- **Account Balance**: $2,519.85",2,2,1,3
+2.2764175629999954,1644,140,1784,"Based on the information retrieved for user ID user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2,519.85",2,2,1,4
+2.7897416400082875,1644,137,1781,"For user ID **user_001**:
+
+- **Email**: user1@example.com
+- **Account Balance**: $2,519.85",2,2,1,5
+2.323209811002016,1644,137,1781,"For user ID **user_001**:
+
+- **Email**: user1@example.com
+- **Account Balance**: $2,519.85",2,2,1,6
+2.2535349250247236,1644,139,1783,"Here's the information for user ID user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2,519.85",2,2,1,7
+2.5674085119972005,1644,139,1783,"Here's the information for user ID user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2,519.85",2,2,1,8
+2.941969782987144,1657,150,1807,"Here's the information for user_001:
+
+- **Email**: user1@example.com
+- **Account Balance**: $2,519.85",2,2,1,9
+2.586799217009684,1644,139,1783,"Here's the information for user ID user_001:
+
+- **Email:** user1@example.com
+- **Account Balance:** $2,519.85",2,2,1,10
+2.2761308859917335,1659,154,1813,"Here's the information for user ID user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7,253.63",2,2,2,1
+2.4348853080009576,1644,137,1781,"For user ID **user_002**:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7,253.63",2,2,2,2
+2.5635179599921685,1644,139,1783,"Here is the information for user ID user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7,253.63",2,2,2,3
+2.9337427220016252,1644,137,1781,"For user ID **user_002**:
+
+- **Email**: user2@example.com
+- **Account Balance**: $7,253.63",2,2,2,4
+2.9007062969903927,1644,139,1783,"Here's the information for user ID user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7,253.63",2,2,2,5
+2.6987366739776917,1644,135,1779,"For user ID user_002:
+
+- **Email**: user2@example.com
+- **Account Balance**: $7,253.63",2,2,2,6
+2.4192162489925977,1657,152,1809,"Here's the information for user ID user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7,253.63",2,2,2,7
+2.759143356990535,1644,135,1779,"For user ID user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7,253.63",2,2,2,8
+6.377245626994409,1644,135,1779,"For user ID user_002:
+
+- **Email**: user2@example.com
+- **Account Balance**: $7,253.63",2,2,2,9
+2.641454597993288,1644,139,1783,"Here's the information for user ID user_002:
+
+- **Email:** user2@example.com
+- **Account Balance:** $7,253.63",2,2,2,10
+2.363339208997786,1644,137,1781,"For user ID **user_003**:
+- **Email:** user3@example.com
+- **Account Balance:** $8,710.33",2,2,3,1
+2.4471304820035584,1644,137,1781,"For user ID **user_003**:
+
+- **Email**: user3@example.com
+- **Account Balance**: $8,710.33",2,2,3,2
+2.2546456449781545,1657,148,1805,"For user ID user_003:
+- **Email:** user3@example.com
+- **Account Balance:** $8,710.33",2,2,3,3
+2.185418331006076,1644,139,1783,"Here's the information for user ID user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8,710.33",2,2,3,4
+2.2301905599888414,1644,137,1781,"For user ID **user_003**:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8,710.33",2,2,3,5
+2.4466082690050825,1659,154,1813,"Here's the information for user ID user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8,710.33",2,2,3,6
+2.7644048150104936,1660,155,1815,"Here's the information for user ID user_003:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8,710.33",2,2,3,7
+2.5365653339831624,1644,137,1781,"For user ID **user_003**:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8,710.33",2,2,3,8
+2.021058553014882,1644,135,1779,"For user ID user_003:
+
+- **Email**: user3@example.com
+- **Account Balance**: $8,710.33",2,2,3,9
+2.505732691992307,1644,137,1781,"For user ID **user_003**:
+
+- **Email:** user3@example.com
+- **Account Balance:** $8,710.33",2,2,3,10
+2.8686601590015925,1644,139,1783,"Here's the information for user ID user_004:
+
+- **Email**: user4@example.com
+- **Account Balance**: $1,577.75",2,2,4,1
+2.734223325998755,1644,134,1778,"Based on the information retrieved:
+
+- **Email**: user4@example.com
+- **Account Balance**: $1,577.75",2,2,4,2
+2.0039479970000684,1661,156,1817,"Here's the information for user ID user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1,577.75",2,2,4,3
+3.865638366987696,1660,155,1815,"Here's the information for user ID user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1,577.75",2,2,4,4
+2.865594569972018,1644,139,1783,"Here's the information for user ID user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1,577.75",2,2,4,5
+2.1277945059991907,1644,135,1779,"For user ID user_004:
+- **Email**: user4@example.com
+- **Account Balance**: $1,577.75",2,2,4,6
+2.217954246007139,1644,135,1779,"For user ID user_004:
+- **Email**: user4@example.com
+- **Account Balance**: $1,577.75",2,2,4,7
+2.4132063750003,1644,135,1779,"For user ID user_004:
+- **Email:** user4@example.com
+- **Account Balance:** $1,577.75",2,2,4,8
+2.408643161994405,1644,139,1783,"Here is the information for user ID user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1,577.75",2,2,4,9
+2.260422096005641,1659,154,1813,"Here's the information for user ID user_004:
+
+- **Email:** user4@example.com
+- **Account Balance:** $1,577.75",2,2,4,10
+2.0448768429923803,1660,156,1816,"Based on the retrieved information for user ID user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5,143.16",2,2,5,1
+2.63724963698769,1644,139,1783,"Here's the information for user ID user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5,143.16",2,2,5,2
+1.9914984579954762,1644,139,1783,"Here's the information for user ID user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5,143.16",2,2,5,3
+2.204138884000713,1644,139,1783,"Here's the information for user ID user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5,143.16",2,2,5,4
+2.4385772650130093,1644,139,1783,"Here is the information for user ID user_005:
+
+- **Email**: user5@example.com
+- **Account Balance**: $5,143.16",2,2,5,5
+2.853697440994438,1644,137,1781,"For user ID **user_005**:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5,143.16",2,2,5,6
+3.912271844019415,1644,137,1781,"For user ID **user_005**:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5,143.16",2,2,5,7
+3.026306960004149,1659,154,1813,"Here's the information for user ID user_005:
+
+- **Email**: user5@example.com
+- **Account Balance**: $5,143.16",2,2,5,8
+3.5726181320205797,1659,154,1813,"Here is the information for user ID user_005:
+
+- **Email:** user5@example.com
+- **Account Balance:** $5,143.16",2,2,5,9
+2.7911609589937143,1644,139,1783,"Here's the information for user ID user_005:
+
+- **Email**: user5@example.com
+- **Account Balance**: $5,143.16",2,2,5,10
+2.2796333559963387,1644,137,1781,"For user ID **user_006**:
+
+- **Email**: user6@example.com
+- **Account Balance**: $7,246.22",2,2,6,1
+2.3712926730222534,1644,135,1779,"For user ID user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7,246.22",2,2,6,2
+2.563748683023732,1644,137,1781,"For user ID **user_006**:
+
+- **Email**: user6@example.com
+- **Account Balance**: $7,246.22",2,2,6,3
+2.8299706160032656,1644,139,1783,"Here's the information for user ID user_006:
+
+- **Email**: user6@example.com
+- **Account Balance**: $7,246.22",2,2,6,4
+2.8623259529995266,1644,137,1781,"For user ID **user_006**:
+
+- **Email**: user6@example.com
+- **Account Balance**: $7,246.22",2,2,6,5
+2.561579721979797,1644,139,1783,"Here's the information for user ID user_006:
+
+- **Email**: user6@example.com
+- **Account Balance**: $7,246.22",2,2,6,6
+2.213227841013577,1659,154,1813,"Here's the information for user ID user_006:
+
+- **Email**: user6@example.com
+- **Account Balance**: $7,246.22",2,2,6,7
+2.3337491439888254,1644,139,1783,"Here's the information for user ID user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7,246.22",2,2,6,8
+2.563382922002347,1644,135,1779,"For user ID user_006:
+
+- **Email**: user6@example.com
+- **Account Balance**: $7,246.22",2,2,6,9
+2.5185686119948514,1659,154,1813,"Here's the information for user ID user_006:
+
+- **Email:** user6@example.com
+- **Account Balance:** $7,246.22",2,2,6,10
+3.175325004995102,1658,151,1809,"Here's the information for user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6,712.13",2,2,7,1
+2.062985498982016,1644,139,1783,"Here's the information for user ID user_007:
+
+- **Email**: user7@example.com
+- **Account Balance**: $6,712.13",2,2,7,2
+2.1344193589757197,1644,137,1781,"For user ID **user_007**:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6,712.13",2,2,7,3
+2.253697487001773,1644,139,1783,"Here's the information for user ID user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6,712.13",2,2,7,4
+2.866078507999191,1644,135,1779,"For user ID user_007:
+- **Email:** user7@example.com
+- **Account Balance:** $6,712.13",2,2,7,5
+3.650355652003782,1644,137,1781,"For user ID **user_007**:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6,712.13",2,2,7,6
+2.2784051960043143,1644,139,1783,"Here's the information for user ID user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6,712.13",2,2,7,7
+2.3665397930017207,1660,155,1815,"Here's the information for user ID user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6,712.13",2,2,7,8
+2.559670458023902,1660,155,1815,"Here's the information for user ID user_007:
+
+- **Email**: user7@example.com
+- **Account Balance**: $6,712.13",2,2,7,9
+2.219603114994243,1644,139,1783,"Here's the information for user ID user_007:
+
+- **Email:** user7@example.com
+- **Account Balance:** $6,712.13",2,2,7,10
+2.3056043869873974,1644,137,1781,"For user ID **user_008**:
+
+- **Email**: user8@example.com
+- **Account Balance**: $7,856.94",2,2,8,1
+2.398187787999632,1644,137,1781,"For user ID **user_008**:
+
+- **Email**: user8@example.com
+- **Account Balance**: $7,856.94",2,2,8,2
+3.0000571819837205,1644,137,1781,"For user ID **user_008**:
+- **Email**: user8@example.com
+- **Account Balance**: $7,856.94",2,2,8,3
+1.9539138320251368,1644,140,1784,"Based on the retrieved information for user ID user_008:
+
+- **Email**: user8@example.com
+- **Account Balance**: $7,856.94",2,2,8,4
+2.162844669976039,1644,137,1781,"For user ID **user_008**:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7,856.94",2,2,8,5
+2.133875428000465,1644,139,1783,"Here's the information for user ID user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7,856.94",2,2,8,6
+2.610027971008094,1644,139,1783,"Here is the information for user ID user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7,856.94",2,2,8,7
+3.2485904230270535,1644,139,1783,"Here's the information for user ID user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7,856.94",2,2,8,8
+2.780571417999454,1644,139,1783,"Here's the information for user ID user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7,856.94",2,2,8,9
+2.420317165000597,1644,135,1779,"For user ID user_008:
+
+- **Email:** user8@example.com
+- **Account Balance:** $7,856.94",2,2,8,10
+3.1793463449866977,1644,139,1783,"Here's the information for user ID user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2,886.20",2,2,9,1
+2.3867917979951017,1644,139,1783,"Here's the information for user ID user_009:
+
+- **Email**: user9@example.com
+- **Account Balance**: $2,886.20",2,2,9,2
+2.42016809101915,1644,135,1779,"For user ID user_009:
+
+- **Email**: user9@example.com
+- **Account Balance**: $2,886.20",2,2,9,3
+2.2577773460070603,1644,139,1783,"Here's the information for user ID user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2,886.20",2,2,9,4
+2.2507921179931145,1644,135,1779,"For user ID user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2,886.20",2,2,9,5
+2.176638308999827,1644,137,1781,"For user ID **user_009**:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2,886.20",2,2,9,6
+2.2229334010044113,1644,139,1783,"Here's the information for user ID user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2,886.20",2,2,9,7
+2.5680147180100903,1644,139,1783,"Here's the information for user ID user_009:
+
+- **Email**: user9@example.com
+- **Account Balance**: $2,886.20",2,2,9,8
+2.8541901819990017,1659,154,1813,"Here's the information for user ID user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2,886.20",2,2,9,9
+2.3563841610157397,1644,139,1783,"Here's the information for user ID user_009:
+
+- **Email:** user9@example.com
+- **Account Balance:** $2,886.20",2,2,9,10
+3.800008172984235,1660,155,1815,"Here's the information for user ID user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5,542.53",2,2,10,1
+2.5640507790085394,1644,139,1783,"Here is the information for user ID user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5,542.53",2,2,10,2
+2.351298975001555,1644,137,1781,"For user ID **user_010**:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5,542.53",2,2,10,3
+2.1392291489755735,1644,135,1779,"For user ID user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5,542.53",2,2,10,4
+2.572171328996774,1644,137,1781,"For user ID **user_010**:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5,542.53",2,2,10,5
+2.5591614370059688,1644,137,1781,"For user ID **user_010**:
+
+- **Email**: user10@example.com
+- **Account Balance**: $5,542.53",2,2,10,6
+2.3455855129868723,1644,140,1784,"Based on the information retrieved for user ID user_010:
+
+- **Email**: user10@example.com
+- **Account Balance**: $5,542.53",2,2,10,7
+2.5504961560072843,1644,135,1779,"For user ID user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5,542.53",2,2,10,8
+2.442835775000276,1644,137,1781,"For user ID **user_010**:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5,542.53",2,2,10,9
+1.956218159000855,1644,139,1783,"Here's the information for user ID user_010:
+
+- **Email:** user10@example.com
+- **Account Balance:** $5,542.53",2,2,10,10
+2.793653106025886,1644,135,1779,"For user ID user_011:
+
+- **Email**: user11@example.com
+- **Account Balance**: $5,970.40",2,2,11,1
+2.1332335819897708,1644,139,1783,"Here's the information for user ID user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5,970.40",2,2,11,2
+2.7480613210063893,1660,155,1815,"Here's the information for user ID user_011:
+
+- **Email**: user11@example.com
+- **Account Balance**: $5,970.40",2,2,11,3
+3.407690800988348,1659,154,1813,"Here's the information for user ID user_011:
+
+- **Email**: user11@example.com
+- **Account Balance**: $5,970.40",2,2,11,4
+2.355163780011935,1659,154,1813,"Here's the information for user ID user_011:
+
+- **Email**: user11@example.com
+- **Account Balance**: $5,970.40",2,2,11,5
+2.1872412149969023,1644,140,1784,"Based on the information retrieved for user ID user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5,970.40",2,2,11,6
+1.9757861130055971,1644,139,1783,"Here's the information for user ID user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5,970.40",2,2,11,7
+2.3841297419858165,1659,154,1813,"Here's the information for user ID user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5,970.40",2,2,11,8
+2.74065878597321,1644,139,1783,"Here's the information for user ID user_011:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5,970.40",2,2,11,9
+2.2722418410121463,1644,137,1781,"For user ID **user_011**:
+
+- **Email:** user11@example.com
+- **Account Balance:** $5,970.40",2,2,11,10
+2.0146440929966047,1644,139,1783,"Here's the information for user ID user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8,024.91",2,2,12,1
+2.401127845980227,1644,137,1781,"For user ID **user_012**:
+
+- **Email**: user12@example.com
+- **Account Balance**: $8,024.91",2,2,12,2
+2.561078874015948,1644,137,1781,"For user ID **user_012**:
+
+- **Email**: user12@example.com
+- **Account Balance**: $8,024.91",2,2,12,3
+2.253544549981598,1644,139,1783,"Here's the information for user ID user_012:
+
+- **Email**: user12@example.com
+- **Account Balance**: $8,024.91",2,2,12,4
+2.362379257014254,1644,139,1783,"Here's the information for user ID user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8,024.91",2,2,12,5
+2.003270930988947,1659,154,1813,"Here's the information for user ID user_012:
+
+- **Email**: user12@example.com
+- **Account Balance**: $8,024.91",2,2,12,6
+2.2886189609998837,1644,137,1781,"For user ID **user_012**:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8,024.91",2,2,12,7
+2.5577206290035974,1644,140,1784,"Based on the information retrieved for user ID user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8,024.91",2,2,12,8
+2.2018664840143174,1644,140,1784,"Based on the information retrieved for user ID user_012:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8,024.91",2,2,12,9
+2.456453977007186,1644,137,1781,"For user ID **user_012**:
+
+- **Email:** user12@example.com
+- **Account Balance:** $8,024.91",2,2,12,10
+2.4101029869925696,1644,139,1783,"Here's the information for user ID user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8,225.39",2,2,13,1
+2.5590679399902,1644,140,1784,"Based on the information retrieved for user ID user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8,225.39",2,2,13,2
+2.221147711999947,1644,135,1779,"For user ID user_013:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8,225.39",2,2,13,3
+2.3765593730204273,1644,137,1781,"For user ID **user_013**:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8,225.39",2,2,13,4
+2.1189780849963427,1644,132,1776,"Based on the information retrieved:
+
+**Email:** user13@example.com
+
+**Account Balance:** $8,225.39",2,2,13,5
+2.3076183130033314,1644,139,1783,"Here's the information for user ID user_013:
+
+- **Email**: user13@example.com
+- **Account Balance**: $8,225.39",2,2,13,6
+2.137650880991714,1644,137,1781,"For user ID **user_013**:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8,225.39",2,2,13,7
+2.389664910006104,1644,137,1781,"For user ID **user_013**:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8,225.39",2,2,13,8
+2.0874174650234636,1644,137,1781,"For user ID **user_013**:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8,225.39",2,2,13,9
+2.0858666819985956,1644,137,1781,"For user ID **user_013**:
+
+- **Email:** user13@example.com
+- **Account Balance:** $8,225.39",2,2,13,10
+2.65267336301622,1644,137,1781,"For user ID **user_014**:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5,395.22",2,2,14,1
+2.106659760000184,1644,137,1781,"For user ID **user_014**:
+
+- **Email**: user14@example.com
+- **Account Balance**: $5,395.22",2,2,14,2
+2.2854915119824,1644,135,1779,"For user ID user_014:
+
+- **Email**: user14@example.com
+- **Account Balance**: $5,395.22",2,2,14,3
+2.469209671980934,1644,137,1781,"For user ID **user_014**:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5,395.22",2,2,14,4
+2.0456586930085905,1644,139,1783,"Here's the information for user ID user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5,395.22",2,2,14,5
+2.5024282970116474,1644,140,1784,"Based on the information retrieved for user ID user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5,395.22",2,2,14,6
+2.6404574740154203,1644,137,1781,"For user ID **user_014**:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5,395.22",2,2,14,7
+2.763060444005532,1644,137,1781,"For user ID **user_014**:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5,395.22",2,2,14,8
+3.023300589993596,1644,134,1778,"Based on the information retrieved:
+
+- **Email**: user14@example.com
+- **Account Balance**: $5,395.22",2,2,14,9
+2.2995835410256404,1644,139,1783,"Here's the information for user ID user_014:
+
+- **Email:** user14@example.com
+- **Account Balance:** $5,395.22",2,2,14,10
+2.4735088179877494,1644,139,1783,"Here's the information for user ID user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4,732.55",2,2,15,1
+2.3195399009855464,1644,137,1781,"For user ID **user_015**:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4,732.55",2,2,15,2
+2.163750223990064,1644,135,1779,"For user ID user_015:
+- **Email**: user15@example.com
+- **Account Balance**: $4,732.55",2,2,15,3
+2.0695040599966887,1644,137,1781,"For user ID **user_015**:
+
+- **Email**: user15@example.com
+- **Account Balance**: $4,732.55",2,2,15,4
+2.164322107011685,1644,140,1784,"Based on the information retrieved for user ID user_015:
+
+- **Email**: user15@example.com
+- **Account Balance**: $4,732.55",2,2,15,5
+3.2244896610209253,1644,135,1779,"For user ID user_015:
+
+- **Email:** user15@example.com
+- **Account Balance:** $4,732.55",2,2,15,6
+2.581542008003453,1644,135,1779,"For user ID user_015:
+
+- **Email**: user15@example.com
+- **Account Balance**: $4,732.55",2,2,15,7
+2.434094965021359,1658,151,1809,"Here's the information for user_015:
+
+- **Email**: user15@example.com
+- **Account Balance**: $4,732.55",2,2,15,8
+2.2479438580048736,1660,155,1815,"Here's the information for user ID user_015:
+
+- **Email**: user15@example.com
+- **Account Balance**: $4,732.55",2,2,15,9
+2.3099551500054076,1644,139,1783,"Here's the information for user ID user_015:
+
+- **Email**: user15@example.com
+- **Account Balance**: $4,732.55",2,2,15,10
+2.004398991994094,1644,139,1783,"Here's the information for user ID user_016:
+
+- **Email**: user16@example.com
+- **Account Balance**: $6,236.10",2,2,16,1
+2.2187277509947307,1644,137,1781,"For user ID **user_016**:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6,236.10",2,2,16,2
+2.9241152759932447,1644,137,1781,"For user ID **user_016**:
+
+- **Email**: user16@example.com
+- **Account Balance**: $6,236.10",2,2,16,3
+2.143369096011156,1644,135,1779,"For user ID user_016:
+- **Email:** user16@example.com
+- **Account Balance:** $6,236.10",2,2,16,4
+2.6430340519873425,1644,139,1783,"Here's the information for user ID user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6,236.10",2,2,16,5
+2.560738162981579,1644,137,1781,"For user ID **user_016**:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6,236.10",2,2,16,6
+2.501674980012467,1644,139,1783,"Here's the information for user ID user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6,236.10",2,2,16,7
+2.7193742290255614,1644,139,1783,"Here is the information for user ID user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6,236.10",2,2,16,8
+2.769776572007686,1644,139,1783,"Here is the information for user ID user_016:
+
+- **Email**: user16@example.com
+- **Account Balance**: $6,236.10",2,2,16,9
+2.243548460013699,1644,139,1783,"Here's the information for user ID user_016:
+
+- **Email:** user16@example.com
+- **Account Balance:** $6,236.10",2,2,16,10
+2.433774175005965,1644,137,1781,"For user ID **user_017**:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3,232.44",2,2,17,1
+2.691559631988639,1644,139,1783,"Here's the information for user ID user_017:
+
+- **Email**: user17@example.com
+- **Account Balance**: $3,232.44",2,2,17,2
+2.2533611149992794,1659,154,1813,"Here's the information for user ID user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3,232.44",2,2,17,3
+2.355396215978544,1644,137,1781,"For user ID **user_017**:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3,232.44",2,2,17,4
+3.290762791002635,1644,140,1784,"Based on the information retrieved for user ID user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3,232.44",2,2,17,5
+2.2697605850116815,1644,135,1779,"For user ID user_017:
+
+- **Email**: user17@example.com
+- **Account Balance**: $3,232.44",2,2,17,6
+2.9377032610063907,1660,155,1815,"Here's the information for user ID user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3,232.44",2,2,17,7
+2.1418761990207713,1644,139,1783,"Here's the information for user ID user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3,232.44",2,2,17,8
+2.6713066840020474,1644,137,1781,"For user ID **user_017**:
+
+- **Email**: user17@example.com
+- **Account Balance**: $3,232.44",2,2,17,9
+3.4727659940253943,1644,139,1783,"Here's the information for user ID user_017:
+
+- **Email:** user17@example.com
+- **Account Balance:** $3,232.44",2,2,17,10
+2.3402744340128265,1644,139,1783,"Here's the information for user ID user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4,699.23",2,2,18,1
+2.568285729998024,1659,154,1813,"Here's the information for user ID user_018:
+
+- **Email**: user18@example.com
+- **Account Balance**: $4,699.23",2,2,18,2
+2.402201028977288,1660,155,1815,"Here's the information for user ID user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4,699.23",2,2,18,3
+2.0653351620130707,1660,155,1815,"Here's the information for user ID user_018:
+
+- **Email**: user18@example.com
+- **Account Balance**: $4,699.23",2,2,18,4
+2.1319145519810263,1644,139,1783,"Here's the information for user ID user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4,699.23",2,2,18,5
+2.1651954049884807,1659,154,1813,"Here's the information for user ID user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4,699.23",2,2,18,6
+2.2854076359944884,1660,155,1815,"Here's the information for user ID user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4,699.23",2,2,18,7
+2.068663829995785,1644,137,1781,"For user ID **user_018**:
+
+- **Email**: user18@example.com
+- **Account Balance**: $4,699.23",2,2,18,8
+3.3168347679893486,1644,139,1783,"Here's the information for user ID user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4,699.23",2,2,18,9
+2.1487491560110357,1659,154,1813,"Here's the information for user ID user_018:
+
+- **Email:** user18@example.com
+- **Account Balance:** $4,699.23",2,2,18,10
+2.226950208976632,1644,137,1781,"For user ID **user_019**:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9,064.87",2,2,19,1
+3.0257966069912072,1644,139,1783,"Here's the information for user ID user_019:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9,064.87",2,2,19,2
+2.3179327380203176,1644,137,1781,"For user ID **user_019**:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9,064.87",2,2,19,3
+2.431524636980612,1644,140,1784,"Based on the information retrieved for user ID user_019:
+
+- **Email**: user19@example.com
+- **Account Balance**: $9,064.87",2,2,19,4
+2.124168802984059,1644,137,1781,"For user ID **user_019**:
+
+- **Email**: user19@example.com
+- **Account Balance**: $9,064.87",2,2,19,5
+6.655212189012673,1644,139,1783,"Here's the information for user ID user_019:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9,064.87",2,2,19,6
+3.029496625997126,1644,137,1781,"For user ID **user_019**:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9,064.87",2,2,19,7
+2.4518044190190267,1644,135,1779,"For user ID user_019:
+
+- **Email**: user19@example.com
+- **Account Balance**: $9,064.87",2,2,19,8
+2.223228023998672,1644,137,1781,"For user ID **user_019**:
+
+- **Email**: user19@example.com
+- **Account Balance**: $9,064.87",2,2,19,9
+2.1506478599912953,1644,137,1781,"For user ID **user_019**:
+
+- **Email:** user19@example.com
+- **Account Balance:** $9,064.87",2,2,19,10
+2.2476893230050337,1659,155,1814,"Based on the retrieved information for user ID user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,1
+3.179027826001402,1644,139,1783,"Here's the information for user ID user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,2
+2.663234817009652,1644,139,1783,"Here is the information for user ID user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,3
+2.2473992469895165,1659,154,1813,"Here's the information for user ID user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,4
+2.353828805993544,1659,154,1813,"Here's the information for user ID user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,5
+2.1699762400239706,1644,139,1783,"Here's the information for user ID user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,6
+2.5492674409761094,1644,134,1778,"Based on the information retrieved:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,7
+2.9662074789812323,1644,139,1783,"Here's the information for user ID user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,8
+2.226548274018569,1644,139,1783,"Here's the information for user ID user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,9
+2.0127157859969884,1659,154,1813,"Here's the information for user ID user_020:
+
+- **Email:** user20@example.com
+- **Account Balance:** $7,381.27",2,2,20,10
+3.5452594259986654,1644,140,1784,"Based on the retrieved information for user ID user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6,248.65",2,2,21,1
+2.2517949949833564,1644,137,1781,"For user ID **user_021**:
+
+- **Email**: user21@example.com
+- **Account Balance**: $6,248.65",2,2,21,2
+2.212177075998625,1644,135,1779,"For user ID user_021:
+- **Email**: user21@example.com
+- **Account Balance**: $6,248.65",2,2,21,3
+2.389807636005571,1660,155,1815,"Here is the information for user ID user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6,248.65",2,2,21,4
+2.158952911006054,1644,135,1779,"For user ID user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6,248.65",2,2,21,5
+2.462668363004923,1644,139,1783,"Here's the information for user ID user_021:
+
+- **Email**: user21@example.com
+- **Account Balance**: $6,248.65",2,2,21,6
+2.7510187390143983,1644,139,1783,"Here is the information for user ID user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6,248.65",2,2,21,7
+2.227683639008319,1644,139,1783,"Here's the information for user ID user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6,248.65",2,2,21,8
+2.14740318999975,1644,137,1781,"For user ID **user_021**:
+
+- **Email**: user21@example.com
+- **Account Balance**: $6,248.65",2,2,21,9
+2.3467069870093837,1644,140,1784,"Based on the information retrieved for user ID user_021:
+
+- **Email:** user21@example.com
+- **Account Balance:** $6,248.65",2,2,21,10
+2.53376427499461,1644,139,1783,"Here's the information for user ID user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1,193.48",2,2,22,1
+2.1771885030029807,1644,139,1783,"Here is the information for user ID user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1,193.48",2,2,22,2
+2.601998298021499,1659,154,1813,"Here's the information for user ID user_022:
+
+- **Email**: user22@example.com
+- **Account Balance**: $1,193.48",2,2,22,3
+2.189201471017441,1644,137,1781,"For user ID **user_022**:
+
+- **Email**: user22@example.com
+- **Account Balance**: $1,193.48",2,2,22,4
+2.830710984999314,1644,139,1783,"Here's the information for user ID user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1,193.48",2,2,22,5
+2.133713290997548,1644,135,1779,"For user ID user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1,193.48",2,2,22,6
+2.4668991490034387,1644,140,1784,"Based on the information retrieved for user ID user_022:
+
+- **Email**: user22@example.com
+- **Account Balance**: $1,193.48",2,2,22,7
+2.150834219006356,1644,139,1783,"Here's the information for user ID user_022:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1,193.48",2,2,22,8
+2.872573084983742,1644,135,1779,"For user ID user_022:
+- **Email**: user22@example.com
+- **Account Balance**: $1,193.48",2,2,22,9
+2.3579166519921273,1644,137,1781,"For user ID **user_022**:
+
+- **Email:** user22@example.com
+- **Account Balance:** $1,193.48",2,2,22,10
+2.6535813710070215,1644,137,1781,"For user ID **user_023**:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2,347.83",2,2,23,1
+2.6697299079969525,1644,140,1784,"Based on the information retrieved for user ID user_023:
+
+- **Email**: user23@example.com
+- **Account Balance**: $2,347.83",2,2,23,2
+2.2460914280090947,1644,140,1784,"Based on the information retrieved for user ID user_023:
+
+- **Email**: user23@example.com
+- **Account Balance**: $2,347.83",2,2,23,3
+2.2581338879826944,1644,139,1783,"Here's the information for user ID user_023:
+
+- **Email**: user23@example.com
+- **Account Balance**: $2,347.83",2,2,23,4
+2.251381281996146,1644,134,1778,"Based on the information retrieved:
+
+- **Email**: user23@example.com
+- **Account Balance**: $2,347.83",2,2,23,5
+2.6647298639873043,1659,154,1813,"Here's the information for user ID user_023:
+
+- **Email**: user23@example.com
+- **Account Balance**: $2,347.83",2,2,23,6
+2.3800014839798678,1644,137,1781,"For user ID **user_023**:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2,347.83",2,2,23,7
+2.637318180000875,1644,139,1783,"Here's the information for user ID user_023:
+
+- **Email**: user23@example.com
+- **Account Balance**: $2,347.83",2,2,23,8
+2.2520000250078738,1644,137,1781,"For user ID **user_023**:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2,347.83",2,2,23,9
+2.3700912699860055,1644,137,1781,"For user ID **user_023**:
+
+- **Email:** user23@example.com
+- **Account Balance:** $2,347.83",2,2,23,10
+2.3050410829891916,1644,139,1783,"Here is the information for user ID user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8,892.71",2,2,24,1
+2.5282069979875814,1644,137,1781,"For user ID **user_024**:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8,892.71",2,2,24,2
+2.0969541920057964,1644,137,1781,"For user ID **user_024**:
+
+- **Email**: user24@example.com
+- **Account Balance**: $8,892.71",2,2,24,3
+2.1680796760192607,1644,137,1781,"For user ID **user_024**:
+- **Email**: user24@example.com
+- **Account Balance**: $8,892.71",2,2,24,4
+2.25327201600885,1644,139,1783,"Here's the information for user ID user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8,892.71",2,2,24,5
+2.2571612860192545,1644,139,1783,"Here's the information for user ID user_024:
+
+- **Email**: user24@example.com
+- **Account Balance**: $8,892.71",2,2,24,6
+2.1567865280085243,1644,139,1783,"Here's the information for user ID user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8,892.71",2,2,24,7
+2.0862048899871297,1644,139,1783,"Here's the information for user ID user_024:
+
+- **Email**: user24@example.com
+- **Account Balance**: $8,892.71",2,2,24,8
+2.402280937996693,1644,135,1779,"For user ID user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8,892.71",2,2,24,9
+2.2589968900138047,1644,140,1784,"Based on the information retrieved for user ID user_024:
+
+- **Email:** user24@example.com
+- **Account Balance:** $8,892.71",2,2,24,10
+2.3115061380085535,1644,139,1783,"Here's the information for user ID user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8,406.19",2,2,25,1
+2.6033012109983247,1644,139,1783,"Here's the information for user ID user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8,406.19",2,2,25,2
+2.256723811995471,1644,139,1783,"Here's the information for user ID user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8,406.19",2,2,25,3
+2.1811078450118657,1644,139,1783,"Here's the information for user ID user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8,406.19",2,2,25,4
+2.0674774080107454,1644,139,1783,"Here's the information for user ID user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8,406.19",2,2,25,5
+2.711555229005171,1644,139,1783,"Here's the information for user ID user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8,406.19",2,2,25,6
+2.1854330629867036,1644,134,1778,"Based on the information retrieved:
+
+- **Email**: user25@example.com
+- **Account Balance**: $8,406.19",2,2,25,7
+2.1149110039987136,1644,139,1783,"Here's the information for user ID user_025:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8,406.19",2,2,25,8
+2.561332676996244,1644,135,1779,"For user ID user_025:
+
+- **Email**: user25@example.com
+- **Account Balance**: $8,406.19",2,2,25,9
+2.2509198510088027,1644,137,1781,"For user ID **user_025**:
+
+- **Email:** user25@example.com
+- **Account Balance:** $8,406.19",2,2,25,10
+3.8919207809958607,1644,139,1783,"Here's the information for user ID user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3,448.45",2,2,26,1
+2.2771377480239607,1644,135,1779,"For user ID user_026:
+- **Email:** user26@example.com
+- **Account Balance:** $3,448.45",2,2,26,2
+2.098367456026608,1644,135,1779,"For user ID user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3,448.45",2,2,26,3
+2.0647331200016197,1644,134,1778,"Based on the information retrieved:
+
+- **Email**: user26@example.com
+- **Account Balance**: $3,448.45",2,2,26,4
+2.257864162995247,1644,135,1779,"For user ID user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3,448.45",2,2,26,5
+2.560841522004921,1644,140,1784,"Based on the information retrieved for user ID user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3,448.45",2,2,26,6
+2.7716347420064267,1644,137,1781,"For user ID **user_026**:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3,448.45",2,2,26,7
+2.111842065991368,1644,137,1781,"For user ID **user_026**:
+
+- **Email**: user26@example.com
+- **Account Balance**: $3,448.45",2,2,26,8
+2.132384105003439,1644,139,1783,"Here's the information for user ID user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3,448.45",2,2,26,9
+2.3089085599931423,1644,135,1779,"For user ID user_026:
+
+- **Email:** user26@example.com
+- **Account Balance:** $3,448.45",2,2,26,10
+2.4699076840188354,1644,140,1784,"Based on the information retrieved for user ID user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5,071.90",2,2,27,1
+2.150853177998215,1644,139,1783,"Here's the information for user ID user_027:
+
+- **Email**: user27@example.com
+- **Account Balance**: $5,071.90",2,2,27,2
+1.9985951959970407,1644,137,1781,"For user ID **user_027**:
+- **Email:** user27@example.com
+- **Account Balance:** $5,071.90",2,2,27,3
+1.9722769949876238,1644,135,1779,"For user ID user_027:
+
+- **Email**: user27@example.com
+- **Account Balance**: $5,071.90",2,2,27,4
+2.0184292560152244,1644,140,1784,"Based on the information retrieved for user ID user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5,071.90",2,2,27,5
+2.337485252006445,1644,140,1784,"Based on the information retrieved for user ID user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5,071.90",2,2,27,6
+2.6130400709807873,1659,155,1814,"Based on the retrieved information for user ID user_027:
+
+- **Email**: user27@example.com
+- **Account Balance**: $5,071.90",2,2,27,7
+3.004497383022681,1644,139,1783,"Here's the information for user ID user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5,071.90",2,2,27,8
+3.5518867939827032,1644,139,1783,"Here is the information for user ID user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5,071.90",2,2,27,9
+2.3555319370061625,1644,139,1783,"Here is the information for user ID user_027:
+
+- **Email:** user27@example.com
+- **Account Balance:** $5,071.90",2,2,27,10
+2.4319990280200727,1644,135,1779,"For user ID user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8,682.87",2,2,28,1
+1.978561677999096,1644,139,1783,"Here's the information for user ID user_028:
+
+- **Email**: user28@example.com
+- **Account Balance**: $8,682.87",2,2,28,2
+2.7563060040120035,1644,135,1779,"For user ID user_028:
+- **Email:** user28@example.com
+- **Account Balance:** $8,682.87",2,2,28,3
+2.663415167015046,1644,135,1779,"For user ID user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8,682.87",2,2,28,4
+2.590196600998752,1644,137,1781,"For user ID **user_028**:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8,682.87",2,2,28,5
+2.4273925970192067,1644,137,1781,"For user ID **user_028**:
+
+- **Email**: user28@example.com
+- **Account Balance**: $8,682.87",2,2,28,6
+2.5544385130051523,1644,139,1783,"Here's the information for user ID user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8,682.87",2,2,28,7
+2.1511462109920103,1644,139,1783,"Here's the information for user ID user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8,682.87",2,2,28,8
+2.048425376007799,1659,154,1813,"Here's the information for user ID user_028:
+
+- **Email:** user28@example.com
+- **Account Balance:** $8,682.87",2,2,28,9
+2.2557293479912914,1644,139,1783,"Here's the information for user ID user_028:
+
+- **Email**: user28@example.com
+- **Account Balance**: $8,682.87",2,2,28,10
+2.2538380259939004,1644,137,1781,"For user ID **user_029**:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1,806.54",2,2,29,1
+2.288614493008936,1644,139,1783,"Here's the information for user ID user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1,806.54",2,2,29,2
+2.3133877979998942,1644,140,1784,"Based on the information retrieved for user ID user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1,806.54",2,2,29,3
+2.1648901250155177,1644,139,1783,"Here's the information for user ID user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1,806.54",2,2,29,4
+2.4482932919927407,1644,135,1779,"For user ID user_029:
+
+- **Email**: user29@example.com
+- **Account Balance**: $1,806.54",2,2,29,5
+2.447449069994036,1644,139,1783,"Here's the information for user ID user_029:
+
+- **Email**: user29@example.com
+- **Account Balance**: $1,806.54",2,2,29,6
+2.265226713003358,1659,154,1813,"Here's the information for user ID user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1,806.54",2,2,29,7
+2.60251719399821,1659,154,1813,"Here's the information for user ID user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1,806.54",2,2,29,8
+2.3173129560018424,1660,155,1815,"Here's the information for user ID user_029:
+
+- **Email:** user29@example.com
+- **Account Balance:** $1,806.54",2,2,29,9
+2.005548189015826,1644,137,1781,"For user ID **user_029**:
+
+- **Email**: user29@example.com
+- **Account Balance**: $1,806.54",2,2,29,10
+2.1471689710160717,1644,135,1779,"For user ID user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7,757.38",2,2,30,1
+2.286983123020036,1644,137,1781,"For user ID **user_030**:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7,757.38",2,2,30,2
+3.29591018697829,1644,137,1781,"For user ID **user_030**:
+
+- **Email**: user30@example.com
+- **Account Balance**: $7,757.38",2,2,30,3
+3.1051181009970605,1644,137,1781,"For user ID **user_030**:
+- **Email:** user30@example.com
+- **Account Balance:** $7,757.38",2,2,30,4
+2.206139212998096,1644,139,1783,"Here's the information for user ID user_030:
+
+- **Email**: user30@example.com
+- **Account Balance**: $7,757.38",2,2,30,5
+2.2341279730026145,1660,155,1815,"Here's the information for user ID user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7,757.38",2,2,30,6
+2.373241221997887,1644,139,1783,"Here's the information for user ID user_030:
+
+- **Email**: user30@example.com
+- **Account Balance**: $7,757.38",2,2,30,7
+2.560793227981776,1659,154,1813,"Here's the information for user ID user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7,757.38",2,2,30,8
+2.560569185996428,1660,155,1815,"Here's the information for user ID user_030:
+
+- **Email**: user30@example.com
+- **Account Balance**: $7,757.38",2,2,30,9
+2.348591062997002,1659,154,1813,"Here's the information for user ID user_030:
+
+- **Email:** user30@example.com
+- **Account Balance:** $7,757.38",2,2,30,10
+2.4588642030139454,1644,139,1783,"Here's the information for user ID user_031:
+
+- **Email**: user31@example.com
+- **Account Balance**: $3,838.73",2,2,31,1
+2.6675878030073363,1644,139,1783,"Here's the information for user ID user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3,838.73",2,2,31,2
+2.662123943999177,1644,139,1783,"Here's the information for user ID user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3,838.73",2,2,31,3
+3.269575788988732,1644,139,1783,"Here's the information for user ID user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3,838.73",2,2,31,4
+2.1566968820116017,1644,139,1783,"Here's the information for user ID user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3,838.73",2,2,31,5
+2.2423617579916026,1644,137,1781,"For user ID **user_031**:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3,838.73",2,2,31,6
+2.2800654789898545,1644,139,1783,"Here's the information for user ID user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3,838.73",2,2,31,7
+2.2832660480053164,1644,139,1783,"Here's the information for user ID user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3,838.73",2,2,31,8
+2.0543450389814097,1644,139,1783,"Here's the information for user ID user_031:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3,838.73",2,2,31,9
+2.193859238002915,1644,137,1781,"For user ID **user_031**:
+
+- **Email:** user31@example.com
+- **Account Balance:** $3,838.73",2,2,31,10
+2.7969717739906628,1644,137,1781,"For user ID **user_032**:
+
+- **Email**: user32@example.com
+- **Account Balance**: $4,595.30",2,2,32,1
+2.1282187149918173,1644,139,1783,"Here's the information for user ID user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4,595.30",2,2,32,2
+3.690855121007189,1644,135,1779,"For user ID user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4,595.30",2,2,32,3
+2.04323116800515,1644,135,1779,"For user ID user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4,595.30",2,2,32,4
+2.178893987002084,1660,155,1815,"Here's the information for user ID user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4,595.30",2,2,32,5
+2.72770069501712,1659,154,1813,"Here's the information for user ID user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4,595.30",2,2,32,6
+2.2123864160093945,1644,137,1781,"For user ID **user_032**:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4,595.30",2,2,32,7
+2.3686653500190005,1644,135,1779,"For user ID user_032:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4,595.30",2,2,32,8
+2.1546154690149706,1644,137,1781,"For user ID **user_032**:
+
+- **Email**: user32@example.com
+- **Account Balance**: $4,595.30",2,2,32,9
+2.433550321002258,1644,137,1781,"For user ID **user_032**:
+
+- **Email:** user32@example.com
+- **Account Balance:** $4,595.30",2,2,32,10
+2.070926229003817,1660,155,1815,"Here's the information for user ID user_033:
+
+- **Email**: user33@example.com
+- **Account Balance**: $8,085.92",2,2,33,1
+2.1830414430005476,1644,139,1783,"Here's the information for user ID user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8,085.92",2,2,33,2
+2.5572901779960375,1644,137,1781,"For user ID **user_033**:
+- **Email:** user33@example.com
+- **Account Balance:** $8,085.92",2,2,33,3
+2.2550038140034303,1644,139,1783,"Here's the information for user ID user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8,085.92",2,2,33,4
+2.465965136012528,1644,139,1783,"Here's the information for user ID user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8,085.92",2,2,33,5
+2.518580905016279,1644,139,1783,"Here is the information for user ID user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8,085.92",2,2,33,6
+4.203777329996228,1644,137,1781,"For user ID **user_033**:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8,085.92",2,2,33,7
+2.378733449993888,1659,154,1813,"Here's the information for user ID user_033:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8,085.92",2,2,33,8
+2.383760152006289,1644,137,1781,"For user ID **user_033**:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8,085.92",2,2,33,9
+2.3307810819824226,1644,137,1781,"For user ID **user_033**:
+
+- **Email:** user33@example.com
+- **Account Balance:** $8,085.92",2,2,33,10
+2.5589228910102975,1644,137,1781,"For user ID **user_034**:
+
+- **Email**: user34@example.com
+- **Account Balance**: $9,203.32",2,2,34,1
+2.204667069017887,1644,139,1783,"Here's the information for user ID user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9,203.32",2,2,34,2
+1.928654560004361,1644,139,1783,"Here's the information for user ID user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9,203.32",2,2,34,3
+2.2863274140108842,1644,139,1783,"Here's the information for user ID user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9,203.32",2,2,34,4
+2.188084697991144,1660,155,1815,"Here's the information for user ID user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9,203.32",2,2,34,5
+2.241066521004541,1644,139,1783,"Here's the information for user ID user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9,203.32",2,2,34,6
+2.1624724899884313,1644,140,1784,"Based on the information retrieved for user ID user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9,203.32",2,2,34,7
+2.655379043018911,1644,135,1779,"For user ID user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9,203.32",2,2,34,8
+2.0699394039984327,1644,139,1783,"Here's the information for user ID user_034:
+
+- **Email:** user34@example.com
+- **Account Balance:** $9,203.32",2,2,34,9
+2.05252875800943,1644,135,1779,"For user ID user_034:
+
+- **Email**: user34@example.com
+- **Account Balance**: $9,203.32",2,2,34,10
+1.9206361980177462,1644,139,1783,"Here's the information for user ID user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8,644.75",2,2,35,1
+2.756425970001146,1644,137,1781,"For user ID **user_035**:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8,644.75",2,2,35,2
+2.316066839994164,1644,137,1781,"For user ID **user_035**:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8,644.75",2,2,35,3
+2.196378958004061,1644,135,1779,"For user ID user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8,644.75",2,2,35,4
+2.1586933700018562,1644,137,1781,"For user ID **user_035**:
+
+- **Email**: user35@example.com
+- **Account Balance**: $8,644.75",2,2,35,5
+2.2908806929772254,1644,139,1783,"Here's the information for user ID user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8,644.75",2,2,35,6
+2.2043635500012897,1644,135,1779,"For user ID user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8,644.75",2,2,35,7
+2.4584554140164983,1659,154,1813,"Here's the information for user ID user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8,644.75",2,2,35,8
+2.15569125598995,1660,156,1816,"Based on the information retrieved for user ID user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8,644.75",2,2,35,9
+1.9696517410047818,1644,139,1783,"Here's the information for user ID user_035:
+
+- **Email:** user35@example.com
+- **Account Balance:** $8,644.75",2,2,35,10
+2.0870160030026454,1644,137,1781,"For user ID **user_036**:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4,816.93",2,2,36,1
+2.078167287982069,1644,137,1781,"For user ID **user_036**:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4,816.93",2,2,36,2
+2.3589266310154926,1660,155,1815,"Here's the information for user ID user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4,816.93",2,2,36,3
+2.364848035009345,1644,139,1783,"Here's the information for user ID user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4,816.93",2,2,36,4
+3.0378617999958806,1644,135,1779,"For user ID user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4,816.93",2,2,36,5
+2.744218115985859,1644,134,1778,"Based on the information retrieved:
+
+- **Email**: user36@example.com
+- **Account Balance**: $4,816.93",2,2,36,6
+2.2919697700126562,1660,155,1815,"Here's the information for user ID user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4,816.93",2,2,36,7
+2.253894980996847,1644,139,1783,"Here's the information for user ID user_036:
+
+- **Email**: user36@example.com
+- **Account Balance**: $4,816.93",2,2,36,8
+3.6840133299992885,1644,137,1781,"For user ID **user_036**:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4,816.93",2,2,36,9
+2.942597448010929,1644,139,1783,"Here's the information for user ID user_036:
+
+- **Email:** user36@example.com
+- **Account Balance:** $4,816.93",2,2,36,10
+2.324375035997946,1644,140,1784,"Based on the information retrieved for user ID user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8,750.27",2,2,37,1
+2.3681155929807574,1644,139,1783,"Here's the information for user ID user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8,750.27",2,2,37,2
+2.3488598839903716,1644,137,1781,"For user ID **user_037**:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8,750.27",2,2,37,3
+2.13561689000926,1644,137,1781,"For user ID **user_037**:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8,750.27",2,2,37,4
+2.8503785179927945,1644,137,1781,"For user ID **user_037**:
+
+- **Email**: user37@example.com
+- **Account Balance**: $8,750.27",2,2,37,5
+2.1472943580010906,1644,137,1781,"For user ID **user_037**:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8,750.27",2,2,37,6
+2.8524398139852565,1644,134,1778,"Based on the information retrieved:
+
+- **Email**: user37@example.com
+- **Account Balance**: $8,750.27",2,2,37,7
+2.5665924939967226,1644,137,1781,"For user ID **user_037**:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8,750.27",2,2,37,8
+2.6293103559874,1644,135,1779,"For user ID user_037:
+
+- **Email:** user37@example.com
+- **Account Balance:** $8,750.27",2,2,37,9
+2.490908809006214,1644,135,1779,"For user ID user_037:
+- **Email:** user37@example.com
+- **Account Balance:** $8,750.27",2,2,37,10
+2.256069414986996,1644,140,1784,"Based on the information retrieved for user ID user_038:
+
+- **Email**: user38@example.com
+- **Account Balance**: $7,393.26",2,2,38,1
+2.3519204610201996,1644,140,1784,"Based on the information retrieved for user ID user_038:
+
+- **Email**: user38@example.com
+- **Account Balance**: $7,393.26",2,2,38,2
+2.5723100199829787,1644,139,1783,"Here's the information for user ID user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7,393.26",2,2,38,3
+2.127963514009025,1644,139,1783,"Here's the information for user ID user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7,393.26",2,2,38,4
+2.3894328019814566,1644,137,1781,"For user ID **user_038**:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7,393.26",2,2,38,5
+2.3317160599981435,1644,139,1783,"Here's the information for user ID user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7,393.26",2,2,38,6
+2.968580093001947,1644,137,1781,"For user ID **user_038**:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7,393.26",2,2,38,7
+3.499707345996285,1644,139,1783,"Here's the information for user ID user_038:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7,393.26",2,2,38,8
+2.643738556012977,1644,137,1781,"For user ID **user_038**:
+
+- **Email:** user38@example.com
+- **Account Balance:** $7,393.26",2,2,38,9
+2.5799316609918606,1644,137,1781,"For user ID **user_038**:
+
+- **Email**: user38@example.com
+- **Account Balance**: $7,393.26",2,2,38,10
+2.599997704004636,1644,139,1783,"Here's the information for user ID user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1,979.63",2,2,39,1
+2.062268515001051,1644,139,1783,"Here's the information for user ID user_039:
+
+- **Email**: user39@example.com
+- **Account Balance**: $1,979.63",2,2,39,2
+2.0375376240117475,1644,139,1783,"Here's the information for user ID user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1,979.63",2,2,39,3
+2.4586760830134153,1660,155,1815,"Here's the information for user ID user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1,979.63",2,2,39,4
+2.4945332079951186,1644,137,1781,"For user ID **user_039**:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1,979.63",2,2,39,5
+1.968058853992261,1644,139,1783,"Here's the information for user ID user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1,979.63",2,2,39,6
+2.1193934910115786,1644,140,1784,"Based on the information retrieved for user ID user_039:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1,979.63",2,2,39,7
+2.6266521560028195,1644,137,1781,"For user ID **user_039**:
+
+- **Email:** user39@example.com
+- **Account Balance:** $1,979.63",2,2,39,8
+2.3067316579981707,1644,140,1784,"Based on the information retrieved for user ID user_039:
+
+- **Email**: user39@example.com
+- **Account Balance**: $1,979.63",2,2,39,9
+2.132297552016098,1659,154,1813,"Here's the information for user ID user_039:
+
+- **Email**: user39@example.com
+- **Account Balance**: $1,979.63",2,2,39,10
+2.0837786789925303,1644,137,1781,"For user ID **user_040**:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7,959.92",2,2,40,1
+2.2310112770064734,1644,137,1781,"For user ID **user_040**:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7,959.92",2,2,40,2
+2.5634669860010035,1644,139,1783,"Here's the information for user ID user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7,959.92",2,2,40,3
+2.5486205810157117,1644,137,1781,"For user ID **user_040**:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7,959.92",2,2,40,4
+2.3544701199862175,1644,137,1781,"For user ID **user_040**:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7,959.92",2,2,40,5
+2.0332123929983936,1644,139,1783,"Here is the information for user ID user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7,959.92",2,2,40,6
+2.27130861999467,1644,139,1783,"Here's the information for user ID user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7,959.92",2,2,40,7
+2.5617221200081985,1659,150,1809,"For user ID user_040:
+- **Email:** user40@example.com
+- **Account Balance:** $7,959.92",2,2,40,8
+2.1865149189834483,1659,154,1813,"Here's the information for user ID user_040:
+
+- **Email:** user40@example.com
+- **Account Balance:** $7,959.92",2,2,40,9
+2.1511554479948245,1644,135,1779,"For user ID user_040:
+
+- **Email**: user40@example.com
+- **Account Balance**: $7,959.92",2,2,40,10
+2.7264746079745237,1644,139,1783,"Here's the information for user ID user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4,676.44",2,2,41,1
+2.15712626898312,1644,140,1784,"Based on the retrieved information for user ID user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4,676.44",2,2,41,2
+2.6555225949850865,1644,140,1784,"Based on the information retrieved for user ID user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4,676.44",2,2,41,3
+2.2515826180169825,1644,137,1781,"For user ID **user_041**:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4,676.44",2,2,41,4
+2.2556090230064,1644,135,1779,"For user ID user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4,676.44",2,2,41,5
+2.1439482890127692,1644,137,1781,"For user ID **user_041**:
+
+- **Email**: user41@example.com
+- **Account Balance**: $4,676.44",2,2,41,6
+2.0512896080035716,1644,135,1779,"For user ID user_041:
+
+- **Email**: user41@example.com
+- **Account Balance**: $4,676.44",2,2,41,7
+2.1515828549745493,1644,137,1781,"For user ID **user_041**:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4,676.44",2,2,41,8
+2.865500712010544,1644,137,1781,"For user ID **user_041**:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4,676.44",2,2,41,9
+2.5565692000091076,1644,139,1783,"Here's the information for user ID user_041:
+
+- **Email:** user41@example.com
+- **Account Balance:** $4,676.44",2,2,41,10
+2.2149971820181236,1644,139,1783,"Here's the information for user ID user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7,072.40",2,2,42,1
+2.3045419679838233,1644,139,1783,"Here's the information for user ID user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7,072.40",2,2,42,2
+2.478492367983563,1644,137,1781,"For user ID **user_042**:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7,072.40",2,2,42,3
+2.2305455690075178,1644,140,1784,"Based on the information retrieved for user ID user_042:
+
+- **Email**: user42@example.com
+- **Account Balance**: $7,072.40",2,2,42,4
+2.7794487520004623,1644,137,1781,"For user ID **user_042**:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7,072.40",2,2,42,5
+2.4300446289998945,1644,137,1781,"For user ID **user_042**:
+
+- **Email**: user42@example.com
+- **Account Balance**: $7,072.40",2,2,42,6
+2.1554893580032513,1644,137,1781,"For user ID **user_042**:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7,072.40",2,2,42,7
+2.3630834049836267,1644,137,1781,"For user ID **user_042**:
+
+- **Email**: user42@example.com
+- **Account Balance**: $7,072.40",2,2,42,8
+2.1454052819753997,1644,139,1783,"Here's the information for user ID user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7,072.40",2,2,42,9
+1.9782881859864574,1644,139,1783,"Here's the information for user ID user_042:
+
+- **Email:** user42@example.com
+- **Account Balance:** $7,072.40",2,2,42,10
+2.050505418999819,1644,137,1781,"For user ID **user_043**:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3,113.60",2,2,43,1
+2.033598668000195,1644,135,1779,"For user ID user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3,113.60",2,2,43,2
+2.3397927370097023,1644,137,1781,"For user ID **user_043**:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3,113.60",2,2,43,3
+2.138606526015792,1644,135,1779,"For user ID user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3,113.60",2,2,43,4
+3.4143624030111823,1644,139,1783,"Here's the information for user ID user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3,113.60",2,2,43,5
+2.633629199001007,1644,135,1779,"For user ID user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3,113.60",2,2,43,6
+2.558824322972214,1644,139,1783,"Here's the information for user ID user_043:
+
+- **Email**: user43@example.com
+- **Account Balance**: $3,113.60",2,2,43,7
+2.2582959239953198,1644,137,1781,"For user ID **user_043**:
+
+- **Email**: user43@example.com
+- **Account Balance**: $3,113.60",2,2,43,8
+2.24129433897906,1644,139,1783,"Here's the information for user ID user_043:
+
+- **Email:** user43@example.com
+- **Account Balance:** $3,113.60",2,2,43,9
+2.1551996500056703,1644,137,1781,"For user ID **user_043**:
+
+- **Email**: user43@example.com
+- **Account Balance**: $3,113.60",2,2,43,10
+2.2665947579953354,1644,139,1783,"Here is the information for user ID user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1,572.06",2,2,44,1
+2.125338643993018,1659,154,1813,"Here's the information for user ID user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1,572.06",2,2,44,2
+2.1173976110003423,1659,150,1809,"For user ID user_044:
+- **Email:** user44@example.com
+- **Account Balance:** $1,572.06",2,2,44,3
+1.9923943269823212,1660,155,1815,"Here's the information for user ID user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1,572.06",2,2,44,4
+3.1773368940048385,1644,135,1779,"For user ID user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1,572.06",2,2,44,5
+2.6576191860076506,1644,139,1783,"Here is the information for user ID user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1,572.06",2,2,44,6
+2.5632883780053817,1644,139,1783,"Here's the information for user ID user_044:
+
+- **Email**: user44@example.com
+- **Account Balance**: $1,572.06",2,2,44,7
+2.217789668997284,1644,140,1784,"Based on the information retrieved for user ID user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1,572.06",2,2,44,8
+2.4902886189811397,1660,155,1815,"Here's the information for user ID user_044:
+
+- **Email:** user44@example.com
+- **Account Balance:** $1,572.06",2,2,44,9
+2.624518904980505,1644,139,1783,"Based on the results for user ID user_044:
+
+- **Email**: user44@example.com
+- **Account Balance**: $1,572.06",2,2,44,10
+2.807014313992113,1644,139,1783,"Here's the information for user ID user_045:
+
+- **Email**: user45@example.com
+- **Account Balance**: $7,507.34",2,2,45,1
+2.1336670389864594,1644,140,1784,"Based on the information retrieved for user ID user_045:
+
+- **Email**: user45@example.com
+- **Account Balance**: $7,507.34",2,2,45,2
+2.0278077910188586,1644,140,1784,"Based on the retrieved information for user ID user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7,507.34",2,2,45,3
+2.5907894099946134,1644,137,1781,"For user ID **user_045**:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7,507.34",2,2,45,4
+2.6590469289803877,1644,137,1781,"For user ID **user_045**:
+
+- **Email**: user45@example.com
+- **Account Balance**: $7,507.34",2,2,45,5
+2.4325023000128567,1644,139,1783,"Here's the information for user ID user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7,507.34",2,2,45,6
+2.8969201650179457,1644,137,1781,"For user ID **user_045**:
+
+- **Email**: user45@example.com
+- **Account Balance**: $7,507.34",2,2,45,7
+2.2528941509954166,1658,151,1809,"Here's the information for user_045:
+
+- **Email**: user45@example.com
+- **Account Balance**: $7,507.34",2,2,45,8
+2.140693310997449,1644,137,1781,"For user ID **user_045**:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7,507.34",2,2,45,9
+2.6723059370124247,1644,139,1783,"Here's the information for user ID user_045:
+
+- **Email:** user45@example.com
+- **Account Balance:** $7,507.34",2,2,45,10
+2.139414503995795,1644,137,1781,"For user ID **user_046**:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9,651.07",2,2,46,1
+2.4737465259968303,1644,140,1784,"Based on the information retrieved for user ID user_046:
+
+- **Email**: user46@example.com
+- **Account Balance**: $9,651.07",2,2,46,2
+2.6306027910031844,1644,134,1778,"Based on the information retrieved:
+
+- **Email**: user46@example.com
+- **Account Balance**: $9,651.07",2,2,46,3
+2.047874932002742,1644,139,1783,"Here's the information for user ID user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9,651.07",2,2,46,4
+2.5224434300034773,1659,154,1813,"Here's the information for user ID user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9,651.07",2,2,46,5
+3.2317736450058874,1644,135,1779,"For user ID user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9,651.07",2,2,46,6
+2.1562404010037426,1644,135,1779,"For user ID user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9,651.07",2,2,46,7
+2.3300230050226673,1644,137,1781,"For user ID **user_046**:
+
+- **Email**: user46@example.com
+- **Account Balance**: $9,651.07",2,2,46,8
+2.4821000899828505,1644,135,1779,"For user ID user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9,651.07",2,2,46,9
+2.3114128499873914,1644,140,1784,"Based on the information retrieved for user ID user_046:
+
+- **Email:** user46@example.com
+- **Account Balance:** $9,651.07",2,2,46,10
+2.3691841649997514,1659,155,1814,"Based on the retrieved information for user ID user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7,159.86",2,2,47,1
+2.083096371003194,1644,139,1783,"Here's the information for user ID user_047:
+
+- **Email**: user47@example.com
+- **Account Balance**: $7,159.86",2,2,47,2
+2.0805195389839355,1644,139,1783,"Here's the information for user ID user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7,159.86",2,2,47,3
+2.1163148479827214,1644,139,1783,"Here is the information for user ID user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7,159.86",2,2,47,4
+2.753483218984911,1660,155,1815,"Here's the information for user ID user_047:
+
+- **Email**: user47@example.com
+- **Account Balance**: $7,159.86",2,2,47,5
+2.3581050760112703,1644,139,1783,"Here's the information for user ID user_047:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7,159.86",2,2,47,6
+2.1380373320134822,1644,137,1781,"For user ID **user_047**:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7,159.86",2,2,47,7
+2.880479765997734,1644,137,1781,"For user ID **user_047**:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7,159.86",2,2,47,8
+2.5646696200128645,1644,137,1781,"For user ID **user_047**:
+
+- **Email:** user47@example.com
+- **Account Balance:** $7,159.86",2,2,47,9
+2.098005561012542,1659,150,1809,"For user ID user_047:
+- **Email:** user47@example.com
+- **Account Balance:** $7,159.86",2,2,47,10
+2.568477731983876,1644,139,1783,"Here's the information for user ID user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8,255.18",2,2,48,1
+2.2904038629785646,1644,139,1783,"Here's the information for user ID user_048:
+
+- **Email**: user48@example.com
+- **Account Balance**: $8,255.18",2,2,48,2
+2.361332914006198,1644,137,1781,"For user ID **user_048**:
+
+- **Email**: user48@example.com
+- **Account Balance**: $8,255.18",2,2,48,3
+2.2470826779899653,1644,139,1783,"Here's the information for user ID user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8,255.18",2,2,48,4
+2.568978960014647,1644,135,1779,"For user ID user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8,255.18",2,2,48,5
+2.55740946700098,1659,154,1813,"Here's the information for user ID user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8,255.18",2,2,48,6
+2.3588235360221006,1644,139,1783,"Here's the information for user ID user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8,255.18",2,2,48,7
+2.3552437600155827,1644,139,1783,"Here's the information for user ID user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8,255.18",2,2,48,8
+2.331355827016523,1659,154,1813,"Here is the information for user ID user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8,255.18",2,2,48,9
+2.9467900739982724,1644,140,1784,"Based on the information retrieved for user ID user_048:
+
+- **Email:** user48@example.com
+- **Account Balance:** $8,255.18",2,2,48,10
+2.1964185170072597,1644,137,1781,"For user ID **user_049**:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4,854.01",2,2,49,1
+2.5565604150178842,1644,135,1779,"For user ID user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4,854.01",2,2,49,2
+2.4557911829906516,1659,154,1813,"Here's the information for user ID user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4,854.01",2,2,49,3
+2.2549807840259746,1644,139,1783,"Here's the information for user ID user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4,854.01",2,2,49,4
+3.2799770760175306,1644,135,1779,"For user ID user_049:
+
+- **Email**: user49@example.com
+- **Account Balance**: $4,854.01",2,2,49,5
+2.342127329990035,1644,137,1781,"For user ID **user_049**:
+
+- **Email**: user49@example.com
+- **Account Balance**: $4,854.01",2,2,49,6
+2.5758487030107062,1644,137,1781,"For user ID **user_049**:
+
+- **Email**: user49@example.com
+- **Account Balance**: $4,854.01",2,2,49,7
+2.2848801190266386,1644,135,1779,"For user ID user_049:
+
+- **Email**: user49@example.com
+- **Account Balance**: $4,854.01",2,2,49,8
+2.726670338975964,1644,139,1783,"Here's the information for user ID user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4,854.01",2,2,49,9
+2.2685459919739515,1660,155,1815,"Here's the information for user ID user_049:
+
+- **Email:** user49@example.com
+- **Account Balance:** $4,854.01",2,2,49,10
+2.048700162995374,1644,137,1781,"For user ID **user_050**:
+
+- **Email**: user50@example.com
+- **Account Balance**: $5,845.21",2,2,50,1
+2.333140139002353,1644,134,1778,"Based on the information retrieved:
+
+- **Email**: user50@example.com
+- **Account Balance**: $5,845.21",2,2,50,2
+2.5334056099818554,1644,140,1784,"Based on the information retrieved for user ID user_050:
+
+- **Email**: user50@example.com
+- **Account Balance**: $5,845.21",2,2,50,3
+2.429163847002201,1644,137,1781,"For user ID **user_050**:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5,845.21",2,2,50,4
+2.4146103139792103,1659,154,1813,"Here's the information for user ID user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5,845.21",2,2,50,5
+2.184454325004481,1659,154,1813,"Here's the information for user ID user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5,845.21",2,2,50,6
+2.4277203469828237,1660,155,1815,"Here's the information for user ID user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5,845.21",2,2,50,7
+2.9701776189904194,1659,155,1814,"Based on the information retrieved for user ID user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5,845.21",2,2,50,8
+2.1474831649975386,1644,137,1781,"For user ID **user_050**:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5,845.21",2,2,50,9
+2.4518666510120966,1644,140,1784,"Based on the information retrieved for user ID user_050:
+
+- **Email:** user50@example.com
+- **Account Balance:** $5,845.21",2,2,50,10
